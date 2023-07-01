@@ -1,105 +1,98 @@
-[23jun2023 13:37:15.608] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.1.0, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
-[23jun2023 13:37:15.621] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 20.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[23jun2023 13:37:17.024] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Administrator/Desktop/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[23jun2023 13:37:18.071] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\Desktop\server\libraries\net\minecraftforge\fmlcore\1.19.4-45.1.0\fmlcore-1.19.4-45.1.0.jar is missing mods.toml file
-[23jun2023 13:37:18.080] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\Desktop\server\libraries\net\minecraftforge\javafmllanguage\1.19.4-45.1.0\javafmllanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[23jun2023 13:37:18.086] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\Desktop\server\libraries\net\minecraftforge\lowcodelanguage\1.19.4-45.1.0\lowcodelanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[23jun2023 13:37:18.092] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\Desktop\server\libraries\net\minecraftforge\mclanguage\1.19.4-45.1.0\mclanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[23jun2023 13:37:18.413] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[23jun2023 13:37:22.631] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[23jun2023 13:37:22.733] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[23jun2023 13:37:22.975] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 31 options available, 0 override(s) found
-[23jun2023 13:37:51.756] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.13...
-[23jun2023 13:37:52.228] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.1.0, for MC 1.19.4 with MCP 20230314.122934
-[23jun2023 13:37:52.253] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.1.0 Initialized
-[23jun2023 13:38:01.259] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[23jun2023 13:38:01.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
-[23jun2023 13:38:02.363] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 2.1.0 Target: null
-[23jun2023 13:38:02.365] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[23jun2023 13:38:02.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.4.2 Target: null
-[23jun2023 13:38:02.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
-[23jun2023 13:38:02.472] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.2.4 Target: null
-[23jun2023 13:38:02.475] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[23jun2023 13:38:02.478] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
-[23jun2023 13:38:02.480] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
-[23jun2023 13:38:02.482] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid_type.travelersbackpack.potion with the ID 2
-[23jun2023 13:38:02.484] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for Milk with the ID 3
-[23jun2023 13:38:02.503] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[23jun2023 13:38:02.507] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[23jun2023 13:38:02.591] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[23jun2023 13:38:02.616] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[23jun2023 13:38:02.646] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[23jun2023 13:38:02.657] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[23jun2023 13:38:02.661] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[23jun2023 13:38:03.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
-[23jun2023 13:38:03.065] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[23jun2023 13:38:03.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA_OUTDATED Current: 1.8.1 Target: 1.8.2
-[23jun2023 13:38:03.357] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[23jun2023 13:38:03.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 45.1.0 Target: null
-[23jun2023 13:38:03.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[23jun2023 13:38:04.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.6.2 Target: 1.9.7
-[23jun2023 13:38:04.778] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[23jun2023 13:38:04.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 8.4.10 Target: null
-[23jun2023 13:38:09.053] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23jun2023 13:38:14.037] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Administrator/Desktop/server/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
-[23jun2023 13:38:14.041] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Administrator/Desktop/server/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
-[23jun2023 13:38:17.710] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[23jun2023 13:38:19.459] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[23jun2023 13:38:22.046] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3157 advancements
-[23jun2023 13:38:22.055] [main/INFO] [Dungeon Crawl/]: Loading data...
-[23jun2023 13:38:22.692] [main/INFO] [Dungeon Crawl/]: Done.
-[23jun2023 13:38:27.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
-[23jun2023 13:38:27.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23jun2023 13:38:27.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[23jun2023 13:38:27.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23jun2023 13:38:27.550] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[23jun2023 13:38:27.583] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[23jun2023 13:38:27.846] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23jun2023 13:38:27.847] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[23jun2023 13:38:27.855] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23jun2023 13:38:27.864] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[23jun2023 13:38:28.341] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23jun2023 13:38:36.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23jun2023 13:38:44.518] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.528] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.530] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.531] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.536] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.538] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.543] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.544] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.547] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.549] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.551] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.554] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.557] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.566] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.571] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.574] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:44.576] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:45.019] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23jun2023 13:38:45.508] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[23jun2023 13:38:46.008] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[23jun2023 13:38:46.511] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[23jun2023 13:38:47.201] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10693 ms
-[23jun2023 13:38:47.204] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.285s)! For help, type "help"
-[23jun2023 13:38:47.268] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[23jun2023 13:39:01.013] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luisfer153[/127.0.0.1:1256] logged in with entity id 362 at (-74.5, 72.0, 328.5)
-[23jun2023 13:39:01.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 joined the game
-[23jun2023 13:39:02.042] [Server thread/INFO] [Jade/]: Syncing config to luisfer153 (85a2ab14-8f3c-3d23-9bc3-af09496d753f)
-[23jun2023 13:39:03.104] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2262ms or 45 ticks behind
-[23jun2023 13:39:38.803] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 20710ms or 414 ticks behind
-[23jun2023 13:39:50.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 has made the advancement [Alex's Mobs]
-[23jun2023 13:43:01.681] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 lost connection: Disconnected
-[23jun2023 13:43:01.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 left the game
-[23jun2023 13:43:24.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[23jun2023 13:43:24.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[23jun2023 13:43:24.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[23jun2023 13:43:24.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[23jun2023 13:43:26.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23jun2023 13:43:26.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23jun2023 13:43:26.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23jun2023 13:43:26.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23jun2023 13:43:26.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23jun2023 13:43:26.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23jun2023 13:43:26.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Jul2023 07:06:45.254] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.1.0, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
+[01Jul2023 07:06:45.261] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.7 by Microsoft; OS Linux arch amd64 version 5.15.0-1041-azure
+[01Jul2023 07:06:45.631] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/minecraft-1.19.4/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[01Jul2023 07:06:46.102] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/fmlcore/1.19.4-45.1.0/fmlcore-1.19.4-45.1.0.jar is missing mods.toml file
+[01Jul2023 07:06:46.103] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.1.0/javafmllanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[01Jul2023 07:06:46.104] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.1.0/lowcodelanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[01Jul2023 07:06:46.106] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/mclanguage/1.19.4-45.1.0/mclanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[01Jul2023 07:06:46.256] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[01Jul2023 07:06:48.288] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Jul2023 07:06:48.331] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[01Jul2023 07:06:48.391] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 31 options available, 0 override(s) found
+[01Jul2023 07:06:57.251] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.13...
+[01Jul2023 07:06:57.572] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.1.0, for MC 1.19.4 with MCP 20230314.122934
+[01Jul2023 07:06:57.572] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.1.0 Initialized
+[01Jul2023 07:07:01.726] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[01Jul2023 07:07:02.173] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[01Jul2023 07:07:02.475] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 2.1.0 Target: null
+[01Jul2023 07:07:02.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[01Jul2023 07:07:02.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.4.2 Target: null
+[01Jul2023 07:07:02.493] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[01Jul2023 07:07:02.504] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.2.4 Target: null
+[01Jul2023 07:07:02.504] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[01Jul2023 07:07:02.513] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
+[01Jul2023 07:07:02.513] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
+[01Jul2023 07:07:02.514] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid_type.travelersbackpack.potion with the ID 2
+[01Jul2023 07:07:02.514] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for Milk with the ID 3
+[01Jul2023 07:07:02.520] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01Jul2023 07:07:02.522] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[01Jul2023 07:07:02.560] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[01Jul2023 07:07:02.569] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[01Jul2023 07:07:02.585] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[01Jul2023 07:07:02.598] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[01Jul2023 07:07:02.601] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[01Jul2023 07:07:02.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
+[01Jul2023 07:07:02.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[01Jul2023 07:07:03.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA_OUTDATED Current: 1.8.1 Target: 1.8.2
+[01Jul2023 07:07:03.054] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Jul2023 07:07:03.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 45.1.0 Target: null
+[01Jul2023 07:07:03.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[01Jul2023 07:07:03.365] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.6.2 Target: 1.9.7
+[01Jul2023 07:07:03.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[01Jul2023 07:07:03.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 8.4.10 Target: 8.4.11
+[01Jul2023 07:07:05.952] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Jul2023 07:07:09.053] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft-1.19.4/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
+[01Jul2023 07:07:09.053] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft-1.19.4/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
+[01Jul2023 07:07:10.548] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[01Jul2023 07:07:11.153] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[01Jul2023 07:07:12.094] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3157 advancements
+[01Jul2023 07:07:12.099] [main/INFO] [Dungeon Crawl/]: Loading data...
+[01Jul2023 07:07:12.409] [main/INFO] [Dungeon Crawl/]: Done.
+[01Jul2023 07:07:15.366] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
+[01Jul2023 07:07:15.366] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jul2023 07:07:15.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jul2023 07:07:15.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jul2023 07:07:15.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jul2023 07:07:15.607] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jul2023 07:07:15.698] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jul2023 07:07:15.699] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jul2023 07:07:15.699] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jul2023 07:07:15.699] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jul2023 07:07:15.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jul2023 07:07:22.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jul2023 07:07:26.825] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:26.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:26.838] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:26.841] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:26.991] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:27.007] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:27.009] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:27.012] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:27.013] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:27.495] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:27.953] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jul2023 07:07:28.490] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[01Jul2023 07:07:28.943] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[01Jul2023 07:07:29.448] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[01Jul2023 07:07:29.754] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6812 ms
+[01Jul2023 07:07:29.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.038s)! For help, type "help"
+[01Jul2023 07:07:29.784] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Jul2023 07:10:13.249] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luisfer153[/[0:0:0:0:0:0:0:1%0]:53460] logged in with entity id 352 at (673.6999999880791, 12.875, 267.30000001192093)
+[01Jul2023 07:10:13.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 joined the game
+[01Jul2023 07:10:13.354] [Server thread/INFO] [Jade/]: Syncing config to luisfer153 (85a2ab14-8f3c-3d23-9bc3-af09496d753f)
+[01Jul2023 07:10:19.629] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6385ms or 127 ticks behind
+[01Jul2023 07:11:04.953] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 lost connection: Disconnected
+[01Jul2023 07:11:04.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 left the game
+[01Jul2023 07:11:21.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[01Jul2023 07:11:21.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: exit<--[HERE]
+[01Jul2023 07:11:24.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Jul2023 07:11:25.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jul2023 07:11:25.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jul2023 07:11:25.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jul2023 07:11:25.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jul2023 07:11:32.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jul2023 07:11:32.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jul2023 07:11:32.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jul2023 07:11:32.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jul2023 07:11:32.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jul2023 07:11:32.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

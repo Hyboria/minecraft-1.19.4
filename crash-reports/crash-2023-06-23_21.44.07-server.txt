@@ -1,0 +1,402 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2023-06-23 21:44:07
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 246.67 seconds (should be max 0.05)
+	at net.minecraft.server.level.ChunkMap.m_140258_(ChunkMap.java:796) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:securitycraft.mixins.json:camera.ChunkMapMixin,pl:mixin:A}
+	at net.minecraft.server.level.ChunkMap.m_198874_(ChunkMap.java:783) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:securitycraft.mixins.json:camera.ChunkMapMixin,pl:mixin:A}
+	at net.minecraft.server.level.ChunkMap.m_140353_(ChunkMap.java:490) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:securitycraft.mixins.json:camera.ChunkMapMixin,pl:mixin:A}
+	at net.minecraft.server.level.ChunkMap.m_140280_(ChunkMap.java:454) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:securitycraft.mixins.json:camera.ChunkMapMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:315) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:287) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:896) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:273) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:tombstone.mixins.json:DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:817) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:664) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer$$Lambda$11142/0x0000000802318478.run(Unknown Source) ~[?:?] {}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at net.minecraft.server.level.ChunkMap.m_140258_(ChunkMap.java:796) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:securitycraft.mixins.json:camera.ChunkMapMixin,pl:mixin:A}
+	at net.minecraft.server.level.ChunkMap.m_198874_(ChunkMap.java:783) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:securitycraft.mixins.json:camera.ChunkMapMixin,pl:mixin:A}
+	at net.minecraft.server.level.ChunkMap.m_140353_(ChunkMap.java:490) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:securitycraft.mixins.json:camera.ChunkMapMixin,pl:mixin:A}
+	at net.minecraft.server.level.ChunkMap.m_140280_(ChunkMap.java:454) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:securitycraft.mixins.json:camera.ChunkMapMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:315) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:287) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:896) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:273) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:tombstone.mixins.json:DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:817) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:664) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.7/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.7/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.7/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@6e20ff95
+	at java.base@17.0.7/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@6e20ff95
+	at java.base@17.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.7/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=11 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@60e71c21
+	at java.base@17.0.7/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@60e71c21
+	at java.base@17.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.7/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.7/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"Notification Thread" daemon prio=9 Id=12 RUNNABLE
+
+
+"Thread-0" daemon prio=5 Id=19 RUNNABLE
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.io.CharsWrapper$Builder.write(CharsWrapper.java:569)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.io.CharsWrapper$Builder.append(CharsWrapper.java:435)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.io.AbstractInput.readUntil(AbstractInput.java:110)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.6.4/com.electronwill.nightconfig.toml.Toml.readLine(Toml.java:63)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.6.4/com.electronwill.nightconfig.toml.Toml.readUseful(Toml.java:36)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.6.4/com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:50)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.6.4/com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.6.4/com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+	...
+
+
+"FileSystemWatchService" daemon prio=5 Id=20 RUNNABLE (in native)
+	at java.base@17.0.7/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.7/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"JNA Cleaner" daemon prio=5 Id=22 WAITING on java.lang.ref.ReferenceQueue$Lock@21da161a
+	at java.base@17.0.7/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@21da161a
+	at java.base@17.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at MC-BOOTSTRAP/com.sun.jna@5.12.1/com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+
+
+"Timer hack thread" daemon prio=5 Id=23 TIMED_WAITING
+	at java.base@17.0.7/java.lang.Thread.sleep(Native Method)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.Util$9.run(Util.java:659)
+
+
+"FileSystemWatchService" daemon prio=5 Id=28 RUNNABLE (in native)
+	at java.base@17.0.7/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.7/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"Server thread" prio=5 Id=40 RUNNABLE
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.level.ChunkMap.m_140258_(ChunkMap.java:796)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.level.ChunkMap.m_198874_(ChunkMap.java:783)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.level.ChunkMap.m_140353_(ChunkMap.java:490)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.level.ChunkMap.m_140280_(ChunkMap.java:454)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:315)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:287)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:896)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:273)
+	...
+
+
+"Server console handler" daemon prio=5 Id=42 WAITING on java.util.concurrent.locks.ReentrantLock$NonfairSync@48ef99e3
+	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.ReentrantLock$NonfairSync@48ef99e3
+	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+	at java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:715)
+	at java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:938)
+	at java.base@17.0.7/java.util.concurrent.locks.ReentrantLock$Sync.lock(ReentrantLock.java:153)
+	at java.base@17.0.7/java.util.concurrent.locks.ReentrantLock.lock(ReentrantLock.java:322)
+	at MC-BOOTSTRAP/jline.reader@3.12.1/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:644)
+	at MC-BOOTSTRAP/jline.reader@3.12.1/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418)
+	...
+
+
+"DestroyJavaVM" prio=5 Id=43 RUNNABLE
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=44 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"FileSystemWatchService" daemon prio=5 Id=45 RUNNABLE (in native)
+	at java.base@17.0.7/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.7/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"Server Watchdog" daemon prio=5 Id=50 RUNNABLE
+	at java.management@17.0.7/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at TRANSFORMER/minecraft@1.19.4/net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:41)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=51 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=67 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"Worker-Main-22" daemon prio=5 Id=69 WAITING on java.util.concurrent.ForkJoinPool@10b192cb
+	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@10b192cb
+	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-23" daemon prio=5 Id=70 TIMED_WAITING on java.util.concurrent.ForkJoinPool@10b192cb
+	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@10b192cb
+	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-24" daemon prio=5 Id=71 TIMED_WAITING on java.util.concurrent.ForkJoinPool@10b192cb
+	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@10b192cb
+	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-25" daemon prio=5 Id=72 WAITING on java.util.concurrent.ForkJoinPool@10b192cb
+	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@10b192cb
+	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=82 RUNNABLE
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:182)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:302)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:366)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"Tombstone Backup Thread" prio=5 Id=87 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@306e4384
+	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@306e4384
+	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+
+"Netty Epoll Server IO #4" daemon prio=5 Id=100 RUNNABLE
+	at java.base@17.0.7/java.util.TreeMap.put(TreeMap.java:795)
+	at java.base@17.0.7/java.util.TreeMap.put(TreeMap.java:534)
+	at TRANSFORMER/forge@45.1.0/net.minecraftforge.registries.ForgeRegistry.lambda$makeSnapshot$14(ForgeRegistry.java:993)
+	at TRANSFORMER/forge@45.1.0/net.minecraftforge.registries.ForgeRegistry$$Lambda$11135/0x0000000802312b08.accept(Unknown Source)
+	at MC-BOOTSTRAP/com.google.common@31.1-jre/com.google.common.collect.HashBiMap.forEach(HashBiMap.java:576)
+	at TRANSFORMER/forge@45.1.0/net.minecraftforge.registries.ForgeRegistry.makeSnapshot(ForgeRegistry.java:993)
+	at TRANSFORMER/forge@45.1.0/net.minecraftforge.registries.RegistryManager.lambda$takeSnapshot$2(RegistryManager.java:185)
+	at TRANSFORMER/forge@45.1.0/net.minecraftforge.registries.RegistryManager$$Lambda$11134/0x00000008023128d0.accept(Unknown Source)
+	...
+
+
+"Netty Epoll Server IO #5" daemon prio=5 Id=116 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #6" daemon prio=5 Id=118 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #7" daemon prio=5 Id=122 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"IO-Worker-96" prio=5 Id=179 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@75615009
+	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@75615009
+	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.7/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.7/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+"process reaper" daemon prio=10 Id=182 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@695ab3a4
+	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@695ab3a4
+	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.7/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.7/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:56) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:classloading}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 1, entities: 477,477,328,1579,1579,0,0 [minecraft:creeper:46,minecraft:skeleton:42,minecraft:zombie:36,minecraft:item:32,minecraft:sheep:27], block_entities: 337 [minecraft:mob_spawner:301,minecraft:furnace:16,minecraft:beehive:5,minecraft:brewing_stand:4,alexsmobs:leafcutter_anthill_te:4], block_ticks: 5984, fluid_ticks: 901, chunk_source: Chunks[S] W: 4940 E: 476,476,327,1579,1579,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.4
+	Minecraft Version ID: 1.19.4
+	Operating System: Linux (amd64) version 5.15.0-1040-azure
+	Java Version: 17.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Microsoft
+	Memory: 202070248 bytes (192 MiB) / 2082471936 bytes (1986 MiB) up to 2082471936 bytes (1986 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 85 Stepping 7
+	Microarchitecture: Cascade Lake
+	Frequency (GHz): 2.60
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 3969.74
+	Virtual memory used (MB): 3985.72
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 0 total; 
+	Server Running: false
+	Player Count: 1 / 20; [ServerPlayer['Joverit'/48152, l='ServerLevel[world]', x=204.40, y=69.17, z=1013.60]]
+	Data Packs: vanilla, mod:forge, mod:mcwbridges (incompatible), mod:betterthirdperson (incompatible), mod:mixinextras (incompatible), mod:repurposed_structures (incompatible), mod:tombstone, mod:dungeoncrawl, mod:jade, mod:mcwroofs, mod:cfm (incompatible), mod:jei (incompatible), mod:spectrelib (incompatible), mod:goblintraders (incompatible), mod:rubidium (incompatible), mod:xaerominimap (incompatible), mod:dungeons_arise (incompatible), mod:comforts (incompatible), mod:citadel (incompatible), mod:alexsmobs, mod:cataclysm, mod:securitycraft, mod:travelersbackpack (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19.4-20230314.122934-srg.jar             |Minecraft                     |minecraft                     |1.19.4              |DONE      |Manifest: NOSIGNATURE
+		mcw-bridges-2.1.0-mc1.19.4forge.jar               |Macaw's Bridges               |mcwbridges                    |2.1.0               |DONE      |Manifest: NOSIGNATURE
+		BetterThirdPerson-Forge-1.19-1.9.0.jar            |Better Third Person           |betterthirdperson             |1.9.0               |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.6.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.6        |DONE      |Manifest: NOSIGNATURE
+		repurposed_structures-6.3.25+1.19.4-forge.jar     |Repurposed Structures         |repurposed_structures         |6.3.25+1.19.4-forge |DONE      |Manifest: NOSIGNATURE
+		tombstone-8.4.2-1.19.4.jar                        |Corail Tombstone              |tombstone                     |8.4.2               |DONE      |Manifest: NOSIGNATURE
+		DungeonCrawl-1.19.4-2.3.13.jar                    |Dungeon Crawl                 |dungeoncrawl                  |2.3.13              |DONE      |Manifest: NOSIGNATURE
+		Jade-1.19.4-forge-10.3.1.jar                      |Jade                          |jade                          |10.3.1              |DONE      |Manifest: NOSIGNATURE
+		mcw-roofs-2.2.4-mc1.19.4forge.jar                 |Macaw's Roofs                 |mcwroofs                      |2.2.4               |DONE      |Manifest: NOSIGNATURE
+		cfm-forge-1.19.4-7.0.0-pre35.jar                  |MrCrayfish's Furniture Mod    |cfm                           |7.0.0-pre35         |DONE      |Manifest: NOSIGNATURE
+		jei-1.19.4-forge-13.1.0.15.jar                    |Just Enough Items             |jei                           |13.1.0.15           |DONE      |Manifest: NOSIGNATURE
+		spectrelib-forge-0.12.4+1.19.2.jar                |SpectreLib                    |spectrelib                    |0.12.4+1.19.2       |DONE      |Manifest: NOSIGNATURE
+		goblintraders-forge-1.19.4-1.8.1.jar              |Goblin Traders                |goblintraders                 |1.8.1               |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.4-45.1.0-universal.jar                 |Forge                         |forge                         |45.1.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		rubidium-0.6.4.jar                                |Rubidium                      |rubidium                      |0.6.4               |DONE      |Manifest: NOSIGNATURE
+		Xaeros_Minimap_23.5.0_Forge_1.19.4.jar            |Xaero's Minimap               |xaerominimap                  |23.5.0              |DONE      |Manifest: NOSIGNATURE
+		DungeonsArise-1.19.4-2.1.54-beta.jar              |When Dungeons Arise           |dungeons_arise                |2.1.54-1.19.4       |DONE      |Manifest: NOSIGNATURE
+		Comforts-Mod-Forge-1.19.4.jar                     |Comforts                      |comforts                      |6.2.1+1.19.4        |DONE      |Manifest: NOSIGNATURE
+		citadel-2.3.4-1.19.4.jar                          |Citadel                       |citadel                       |2.3.4               |DONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.22.2.jar                              |Alex's Mobs                   |alexsmobs                     |1.22.2              |DONE      |Manifest: NOSIGNATURE
+		Cataclysm-Mod-Forge-1.19.4.jar                    |Cataclysm Mod                 |cataclysm                     |1.0                 |DONE      |Manifest: NOSIGNATURE
+		1.19.4SecurityCraftv1.9.6.2.jar                   |SecurityCraft                 |securitycraft                 |1.9.6.2             |DONE      |Manifest: NOSIGNATURE
+		TravelersBackpack-1.19.4-8.4.10.jar               |Traveler's Backpack           |travelersbackpack             |8.4.10              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: d4ee09a8-f1d6-42a8-9623-d12074879a41
+	FML: 45.1
+	Forge: net.minecraftforge:45.1.0

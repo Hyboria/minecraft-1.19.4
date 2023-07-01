@@ -1,0 +1,93 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 2023-06-23 21:42:45
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:638) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.4
+	Minecraft Version ID: 1.19.4
+	Operating System: Linux (amd64) version 5.15.0-1040-azure
+	Java Version: 17.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Microsoft
+	Memory: 581775872 bytes (554 MiB) / 1127219200 bytes (1075 MiB) up to 2082471936 bytes (1986 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 85 Stepping 7
+	Microarchitecture: Cascade Lake
+	Frequency (GHz): 2.60
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 3969.74
+	Virtual memory used (MB): 5383.59
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Data Packs: vanilla, mod:forge, mod:mcwbridges (incompatible), mod:betterthirdperson (incompatible), mod:mixinextras (incompatible), mod:repurposed_structures (incompatible), mod:tombstone, mod:dungeoncrawl, mod:jade, mod:mcwroofs, mod:cfm (incompatible), mod:jei (incompatible), mod:spectrelib (incompatible), mod:goblintraders (incompatible), mod:rubidium (incompatible), mod:xaerominimap (incompatible), mod:dungeons_arise (incompatible), mod:comforts (incompatible), mod:citadel (incompatible), mod:alexsmobs, mod:cataclysm, mod:securitycraft, mod:travelersbackpack (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.4-45.1.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19.4-20230314.122934-srg.jar             |Minecraft                     |minecraft                     |1.19.4              |DONE      |Manifest: NOSIGNATURE
+		mcw-bridges-2.1.0-mc1.19.4forge.jar               |Macaw's Bridges               |mcwbridges                    |2.1.0               |DONE      |Manifest: NOSIGNATURE
+		BetterThirdPerson-Forge-1.19-1.9.0.jar            |Better Third Person           |betterthirdperson             |1.9.0               |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.6.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.6        |DONE      |Manifest: NOSIGNATURE
+		repurposed_structures-6.3.25+1.19.4-forge.jar     |Repurposed Structures         |repurposed_structures         |6.3.25+1.19.4-forge |DONE      |Manifest: NOSIGNATURE
+		tombstone-8.4.2-1.19.4.jar                        |Corail Tombstone              |tombstone                     |8.4.2               |DONE      |Manifest: NOSIGNATURE
+		DungeonCrawl-1.19.4-2.3.13.jar                    |Dungeon Crawl                 |dungeoncrawl                  |2.3.13              |DONE      |Manifest: NOSIGNATURE
+		Jade-1.19.4-forge-10.3.1.jar                      |Jade                          |jade                          |10.3.1              |DONE      |Manifest: NOSIGNATURE
+		mcw-roofs-2.2.4-mc1.19.4forge.jar                 |Macaw's Roofs                 |mcwroofs                      |2.2.4               |DONE      |Manifest: NOSIGNATURE
+		cfm-forge-1.19.4-7.0.0-pre35.jar                  |MrCrayfish's Furniture Mod    |cfm                           |7.0.0-pre35         |DONE      |Manifest: NOSIGNATURE
+		jei-1.19.4-forge-13.1.0.15.jar                    |Just Enough Items             |jei                           |13.1.0.15           |DONE      |Manifest: NOSIGNATURE
+		spectrelib-forge-0.12.4+1.19.2.jar                |SpectreLib                    |spectrelib                    |0.12.4+1.19.2       |DONE      |Manifest: NOSIGNATURE
+		goblintraders-forge-1.19.4-1.8.1.jar              |Goblin Traders                |goblintraders                 |1.8.1               |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.4-45.1.0-universal.jar                 |Forge                         |forge                         |45.1.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		rubidium-0.6.4.jar                                |Rubidium                      |rubidium                      |0.6.4               |DONE      |Manifest: NOSIGNATURE
+		Xaeros_Minimap_23.5.0_Forge_1.19.4.jar            |Xaero's Minimap               |xaerominimap                  |23.5.0              |DONE      |Manifest: NOSIGNATURE
+		DungeonsArise-1.19.4-2.1.54-beta.jar              |When Dungeons Arise           |dungeons_arise                |2.1.54-1.19.4       |DONE      |Manifest: NOSIGNATURE
+		Comforts-Mod-Forge-1.19.4.jar                     |Comforts                      |comforts                      |6.2.1+1.19.4        |DONE      |Manifest: NOSIGNATURE
+		citadel-2.3.4-1.19.4.jar                          |Citadel                       |citadel                       |2.3.4               |DONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.22.2.jar                              |Alex's Mobs                   |alexsmobs                     |1.22.2              |DONE      |Manifest: NOSIGNATURE
+		Cataclysm-Mod-Forge-1.19.4.jar                    |Cataclysm Mod                 |cataclysm                     |1.0                 |DONE      |Manifest: NOSIGNATURE
+		1.19.4SecurityCraftv1.9.6.2.jar                   |SecurityCraft                 |securitycraft                 |1.9.6.2             |DONE      |Manifest: NOSIGNATURE
+		TravelersBackpack-1.19.4-8.4.10.jar               |Traveler's Backpack           |travelersbackpack             |8.4.10              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 7e2277d6-fc89-431d-93d9-523d6dda0542
+	FML: 45.1
+	Forge: net.minecraftforge:45.1.0
