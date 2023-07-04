@@ -7408,5 +7408,17 @@
     },
     "done": true
   },
+  "cfm:recipes/decorations/oak_hedge": {
+    "criteria": {
+      "has_leaves": "2023-07-04 16:29:25 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/birch_hedge": {
+    "criteria": {
+      "has_leaves": "2023-07-04 16:30:50 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3337
 }
