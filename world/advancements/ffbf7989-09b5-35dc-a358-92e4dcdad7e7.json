@@ -33,6 +33,7 @@
     "criteria": {
       "minecraft:sunflower_plains": "2023-06-25 02:43:26 +0000",
       "minecraft:badlands": "2023-06-24 21:04:45 +0000",
+      "minecraft:savanna_plateau": "2023-07-05 21:13:06 +0000",
       "minecraft:beach": "2023-06-23 19:12:24 +0000",
       "minecraft:mangrove_swamp": "2023-06-23 19:09:50 +0000",
       "minecraft:sparse_jungle": "2023-06-23 19:31:49 +0000",
@@ -1184,10 +1185,13 @@
       "minecraft:magma_cube": "2023-06-23 19:34:41 +0000",
       "minecraft:spider": "2023-06-23 19:58:15 +0000",
       "minecraft:creeper": "2023-06-24 21:17:39 +0000",
+      "minecraft:witch": "2023-07-05 18:58:59 +0000",
+      "minecraft:wither_skeleton": "2023-07-05 23:07:57 +0000",
       "minecraft:cave_spider": "2023-06-23 20:21:12 +0000",
       "minecraft:stray": "2023-07-03 19:35:18 +0000",
       "minecraft:zombie": "2023-06-23 19:59:07 +0000",
-      "minecraft:drowned": "2023-07-02 20:35:43 +0000"
+      "minecraft:drowned": "2023-07-02 20:35:43 +0000",
+      "minecraft:zombie_villager": "2023-07-05 18:58:07 +0000"
     },
     "done": false
   },
@@ -5740,51 +5744,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/melon_smithing_iron": {
-    "criteria": {
-      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_carpet_from_white_carpet": {
     "criteria": {
       "has_black_dye": "2023-07-04 01:49:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/spider_smithing_gold": {
+  "cfm:recipes/decorations/dye_black_picket_fence": {
     "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+      "has_dye": "2023-07-04 01:49:11 +0000"
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/iron_smithing_legacy_gold": {
+  "minecraft:recipes/misc/gray_dye": {
     "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+      "has_black_dye": "2023-07-04 01:49:11 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_black_picket_gate": {
+    "criteria": {
+      "has_dye": "2023-07-04 01:49:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2023-07-04 01:49:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2023-07-04 01:49:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/melon_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
     },
     "done": true
   },
   "minecraft:recipes/tools/bookshelf_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/cactus_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/lapis_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/villager_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -5800,45 +5804,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/wither_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/melon_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/standard_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/standard_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/iron_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/pig_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/bee_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -5872,39 +5840,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/lapis_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/emerald_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/snow_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/dragon_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/villager_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -5920,27 +5858,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/creeper_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/emerald_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/coal_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_golem_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -5968,57 +5888,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/creeper_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/skeleton_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/end_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/cake_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/magma_cube_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/end_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_black_picket_fence": {
-    "criteria": {
-      "has_dye": "2023-07-04 01:49:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/sheep_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/chicken_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6031,12 +5909,6 @@
   "travelersbackpack:recipes/tools/nether_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/gold_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6064,12 +5936,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/ghast_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/wolf_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
@@ -6082,27 +5948,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/netherite_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/redstone_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/bat_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/hay_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6115,30 +5963,6 @@
   "minecraft:recipes/tools/cow_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/sponge_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/coal_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/quartz_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/melon_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6172,33 +5996,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/horse_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/lapis_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/diamond_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gray_dye": {
-    "criteria": {
-      "has_black_dye": "2023-07-04 01:49:11 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/ocelot_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6208,21 +6008,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/sandstone_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/iron_golem_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/redstone_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6244,33 +6032,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/quartz_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wolf_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/blaze_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/chicken_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/ocelot_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6286,33 +6056,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/pig_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/bee_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/pumpkin_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/iron_golem_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/fox_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6334,12 +6080,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/blaze_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/end_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
@@ -6352,21 +6092,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/nether_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/redstone_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/spider_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6394,24 +6122,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/ghast_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/enderman_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/bookshelf_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/coal_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
@@ -6424,27 +6134,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/sandstone_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/cake_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/hay_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/snow_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6460,21 +6152,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/iron_golem_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/sponge_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/cow_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6484,63 +6164,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/fox_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/pig_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/squid_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/squid_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/magma_cube_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/gold_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_black_picket_gate": {
-    "criteria": {
-      "has_dye": "2023-07-04 01:49:11 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/cactus_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6556,27 +6188,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/hay_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/sandstone_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/pumpkin_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wither_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6586,27 +6200,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/coal_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/cake_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/bat_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/horse_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6619,24 +6215,6 @@
   "minecraft:recipes/tools/gold_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/skeleton_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wolf_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/nether_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6658,39 +6236,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/cow_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/magma_cube_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/blaze_smithing_legacy_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/dragon_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/tools/magma_cube_smithing_legacy_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/sheep_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6724,15 +6272,501 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/wolf_smithing_legacy_gold": {
+  "minecraft:recipes/tools/spider_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/netherite_smithing_legacy_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/standard_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/snow_smithing_legacy_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spider_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/spider_smithing_iron": {
+  "travelersbackpack:recipes/tools/iron_smithing_legacy_gold": {
     "criteria": {
-      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cactus_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/lapis_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/villager_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/wither_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/melon_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/standard_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/standard_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/pig_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bee_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lapis_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/emerald_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/snow_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/dragon_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/villager_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/creeper_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/emerald_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_golem_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/creeper_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/skeleton_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/end_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cake_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/end_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/chicken_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/gold_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/ghast_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/netherite_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/redstone_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/hay_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/sponge_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/coal_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/quartz_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/melon_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/horse_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/diamond_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/ocelot_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/sandstone_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/redstone_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/quartz_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/blaze_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/ocelot_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pig_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/bee_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pumpkin_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/fox_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/blaze_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/nether_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/spider_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/ghast_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/enderman_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bookshelf_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/sandstone_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cake_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/snow_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/iron_golem_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cow_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fox_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/squid_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/squid_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/gold_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cactus_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/hay_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/pumpkin_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wither_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/coal_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bat_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/horse_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/skeleton_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wolf_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/nether_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/cow_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/magma_cube_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/dragon_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/magma_cube_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/sheep_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/tools/wolf_smithing_legacy_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
     },
     "done": true
   },
@@ -6754,30 +6788,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/netherite_smithing_legacy_iron": {
-    "criteria": {
-      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
-    "criteria": {
-      "has_black_dye": "2023-07-04 01:49:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/standard_smithing_iron": {
-    "criteria": {
-      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_candle": {
-    "criteria": {
-      "has_black_dye": "2023-07-04 01:49:11 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/sheep_smithing_legacy_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
@@ -6796,15 +6806,261 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/tools/snow_smithing_legacy_iron": {
-    "criteria": {
-      "has_iron_tier_upgrade": "2023-07-04 02:25:41 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/tools/sponge_smithing_legacy_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2023-07-04 02:26:27 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/froststalker_helmet": {
+    "criteria": {
+      "froststalker_helmet": "2023-07-05 00:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2023-07-05 00:56:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2023-07-05 01:10:18 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_frost_resistance": {
+    "criteria": {
+      "has_magic_scroll": "2023-07-05 01:19:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2023-07-05 01:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2023-07-05 01:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2023-07-05 01:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2023-07-05 01:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2023-07-05 01:40:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2023-07-05 01:41:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-05 01:50:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-05 01:50:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-05 01:50:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-05 01:50:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-05 01:50:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-05 01:50:45 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2023-07-05 03:08:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2023-07-05 21:10:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/nether_bricks": {
+    "criteria": {
+      "has_planks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2023-07-05 23:41:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/stomp_leafcutter_anthill": {
+    "criteria": {
+      "ex": "2023-07-05 21:24:40 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tigers_blessing": {
+    "criteria": {
+      "all_effects": "2023-07-05 23:00:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2023-07-05 23:17:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-07-05 23:53:50 +0000"
     },
     "done": true
   },
