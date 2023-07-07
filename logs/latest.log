@@ -1,269 +1,801 @@
-[06Jul2023 03:04:31.234] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.1.0, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
-[06Jul2023 03:04:31.239] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.7 by Microsoft; OS Linux arch amd64 version 5.15.0-1041-azure
-[06Jul2023 03:04:33.921] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/minecraft-1.19.4/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[06Jul2023 03:04:34.510] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/fmlcore/1.19.4-45.1.0/fmlcore-1.19.4-45.1.0.jar is missing mods.toml file
-[06Jul2023 03:04:34.517] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.1.0/javafmllanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[06Jul2023 03:04:34.520] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.1.0/lowcodelanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[06Jul2023 03:04:34.521] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/mclanguage/1.19.4-45.1.0/mclanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[06Jul2023 03:04:34.764] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[06Jul2023 03:04:37.583] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[06Jul2023 03:04:37.642] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[06Jul2023 03:04:37.743] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 31 options available, 0 override(s) found
-[06Jul2023 03:04:51.140] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.13...
-[06Jul2023 03:04:51.516] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.1.0, for MC 1.19.4 with MCP 20230314.122934
-[06Jul2023 03:04:51.517] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.1.0 Initialized
-[06Jul2023 03:04:56.457] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[06Jul2023 03:04:56.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
-[06Jul2023 03:04:57.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 2.1.0 Target: null
-[06Jul2023 03:04:57.155] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[06Jul2023 03:04:57.175] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.4.2 Target: null
-[06Jul2023 03:04:57.176] [main/INFO] [journeymap/]: Initializing Packet Registries
-[06Jul2023 03:04:57.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
-[06Jul2023 03:04:57.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.2.4 Target: null
-[06Jul2023 03:04:57.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[06Jul2023 03:04:57.235] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
-[06Jul2023 03:04:57.235] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
-[06Jul2023 03:04:57.236] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid_type.travelersbackpack.potion with the ID 2
-[06Jul2023 03:04:57.236] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for Milk with the ID 3
-[06Jul2023 03:04:57.282] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[06Jul2023 03:04:57.294] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[06Jul2023 03:04:57.310] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[06Jul2023 03:04:57.316] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[06Jul2023 03:04:57.319] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[06Jul2023 03:04:57.561] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
-[06Jul2023 03:04:57.563] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[06Jul2023 03:04:57.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA_OUTDATED Current: 1.8.1 Target: 1.8.2
-[06Jul2023 03:04:57.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Jul2023 03:04:57.873] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 45.1.0 Target: null
-[06Jul2023 03:04:57.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[06Jul2023 03:04:57.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.7 Target: null
-[06Jul2023 03:04:57.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[06Jul2023 03:04:58.156] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.6.2 Target: 1.9.7
-[06Jul2023 03:04:58.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[06Jul2023 03:04:58.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 8.4.10 Target: 8.4.11
-[06Jul2023 03:05:01.570] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06Jul2023 03:05:04.399] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft-1.19.4/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
-[06Jul2023 03:05:04.400] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft-1.19.4/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
-[06Jul2023 03:05:06.969] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[06Jul2023 03:05:07.570] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[06Jul2023 03:05:08.396] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3157 advancements
-[06Jul2023 03:05:08.399] [main/INFO] [Dungeon Crawl/]: Loading data...
-[06Jul2023 03:05:08.753] [main/INFO] [Dungeon Crawl/]: Done.
-[06Jul2023 03:05:11.357] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
-[06Jul2023 03:05:11.359] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[06Jul2023 03:05:11.359] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[06Jul2023 03:05:11.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06Jul2023 03:05:11.521] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[06Jul2023 03:05:11.611] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[06Jul2023 03:05:11.732] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06Jul2023 03:05:11.733] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[06Jul2023 03:05:11.733] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06Jul2023 03:05:11.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[06Jul2023 03:05:11.767] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[06Jul2023 03:05:11.771] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[06Jul2023 03:05:11.948] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[06Jul2023 03:05:18.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Jul2023 03:05:21.015] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:21.043] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:21.049] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:21.053] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:21.055] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:21.398] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:21.757] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:22.253] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:22.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:23.249] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:23.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:24.248] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2023 03:05:24.748] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[06Jul2023 03:05:25.243] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[06Jul2023 03:05:25.674] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6931 ms
-[06Jul2023 03:05:25.675] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.919s)! For help, type "help"
-[06Jul2023 03:05:25.728] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[06Jul2023 03:15:03.309] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Milo384[/[0:0:0:0:0:0:0:1%0]:37708] logged in with entity id 323 at (1226.300000011921, 68.0, 919.3000000119209)
-[06Jul2023 03:15:03.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 joined the game
-[06Jul2023 03:15:03.517] [Server thread/INFO] [Jade/]: Syncing config to Milo384 (bc3b4504-8bbf-3d83-920a-e6f3b959db33)
-[06Jul2023 03:15:06.364] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3137ms or 62 ticks behind
-[06Jul2023 03:16:56.731] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3204ms or 64 ticks behind
-[06Jul2023 03:19:44.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Set the time to 1000]
-[06Jul2023 03:21:33.972] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WestSideCoConat[/[0:0:0:0:0:0:0:1%0]:35684] logged in with entity id 4800 at (1221.6280365823723, 60.424758187884265, 1035.4166048582263)
-[06Jul2023 03:21:33.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat joined the game
-[06Jul2023 03:21:34.001] [Server thread/INFO] [Jade/]: Syncing config to WestSideCoConat (29344e0f-2841-3c5c-aa65-b8040e19890d)
-[06Jul2023 03:22:04.034] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WestSideCoConat lost connection: Timed out
-[06Jul2023 03:22:04.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat left the game
-[06Jul2023 03:22:04.235] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[06Jul2023 03:22:27.361] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WestSideCoConat[/[0:0:0:0:0:0:0:1%0]:46942] logged in with entity id 5954 at (1218.5, 71.0, 1054.5)
-[06Jul2023 03:22:27.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat joined the game
-[06Jul2023 03:22:27.406] [Server thread/INFO] [Jade/]: Syncing config to WestSideCoConat (29344e0f-2841-3c5c-aa65-b8040e19890d)
-[06Jul2023 03:22:57.457] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WestSideCoConat lost connection: Timed out
-[06Jul2023 03:22:57.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat left the game
-[06Jul2023 03:23:38.956] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WestSideCoConat[/[0:0:0:0:0:0:0:1%0]:36546] logged in with entity id 7081 at (1218.5, 71.0, 1054.5)
-[06Jul2023 03:23:38.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat joined the game
-[06Jul2023 03:23:38.969] [Server thread/INFO] [Jade/]: Syncing config to WestSideCoConat (29344e0f-2841-3c5c-aa65-b8040e19890d)
-[06Jul2023 03:24:08.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> ey wtf
-[06Jul2023 03:24:09.056] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WestSideCoConat lost connection: Timed out
-[06Jul2023 03:24:09.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat left the game
-[06Jul2023 03:24:24.601] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WestSideCoConat[/[0:0:0:0:0:0:0:1%0]:48988] logged in with entity id 7808 at (1218.579875313818, 73.0, 1036.9671992468648)
-[06Jul2023 03:24:24.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat joined the game
-[06Jul2023 03:24:24.613] [Server thread/INFO] [Jade/]: Syncing config to WestSideCoConat (29344e0f-2841-3c5c-aa65-b8040e19890d)
-[06Jul2023 03:24:54.752] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WestSideCoConat lost connection: Timed out
-[06Jul2023 03:24:54.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat left the game
-[06Jul2023 03:25:09.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 has made the advancement [What a Deal!]
-[06Jul2023 03:25:31.959] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WestSideCoConat[/[0:0:0:0:0:0:0:1%0]:51326] logged in with entity id 8422 at (1218.579875313818, 73.0, 1036.9671992468648)
-[06Jul2023 03:25:31.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat joined the game
-[06Jul2023 03:25:31.969] [Server thread/INFO] [Jade/]: Syncing config to WestSideCoConat (29344e0f-2841-3c5c-aa65-b8040e19890d)
-[06Jul2023 03:25:38.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> estas jodido
-[06Jul2023 03:26:09.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> mrk
-[06Jul2023 03:26:22.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> me aparecio que mori
-[06Jul2023 03:26:36.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> pero no tengo punto de muerte
-[06Jul2023 03:26:37.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> no
-[06Jul2023 03:27:04.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> y ahora solo tengo la llave pero no hay tumba
-[06Jul2023 03:27:07.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> gg
-[06Jul2023 03:27:16.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ah'
-[06Jul2023 03:29:03.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> embuste ya las encontre xd
-[06Jul2023 03:29:08.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 has made the advancement [Smoke On The Water]
-[06Jul2023 03:29:23.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Set the time to 1000]
-[06Jul2023 03:29:29.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> es por una buena causa
-[06Jul2023 03:29:34.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> lo jurp
-[06Jul2023 03:29:47.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> jumero
-[06Jul2023 03:29:51.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> adicto
-[06Jul2023 03:29:56.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> maldito
-[06Jul2023 03:33:26.370] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7325, y=66, z=-4811} BlockPos{x=7325, y=66, z=-4809}
-[06Jul2023 03:34:42.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> puta madre
-[06Jul2023 03:34:51.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ME TUVE QUE COMER UNA NOCH
-[06Jul2023 03:35:22.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> mrkon
-[06Jul2023 03:35:36.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ME RODEARON
-[06Jul2023 03:35:39.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> :C
-[06Jul2023 03:36:37.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> CADA MOB TIENE 80 DE VIDA
-[06Jul2023 03:36:43.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> Y PEGAN DURO
-[06Jul2023 03:43:30.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> QUE PREFIERES UN CULE PENE O UN PENE EN TU OJO NO SE VALE AMBAS
-[06Jul2023 03:43:55.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> como asi un cule pene?
-[06Jul2023 03:44:04.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> osea tener un cule pene?
-[06Jul2023 03:44:16.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> SACA TUS PROPIAS CONCLUSIONES
-[06Jul2023 03:44:26.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> ok
-[06Jul2023 03:44:33.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> un pene en el qlo
-[06Jul2023 03:44:51.151] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2324ms or 46 ticks behind
-[06Jul2023 03:45:24.525] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/19363, l='ServerLevel[world]', x=4486.50, y=78.94, z=111.47] died, message: 'Unemployed was shot by Pillager'
-[06Jul2023 03:45:39.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> CUAL
-[06Jul2023 03:45:43.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> EL MIO
-[06Jul2023 03:45:46.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> O EL TUYO
-[06Jul2023 03:47:11.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> SE VALE AMBOS
-[06Jul2023 03:48:28.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> el de messi si se puedo
-[06Jul2023 03:48:34.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> SOY MESSI
-[06Jul2023 03:48:44.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> QUE MIRA BOBO
-[06Jul2023 03:49:07.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> un poco cringe no te mentire xd
-[06Jul2023 03:49:13.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> QUE MIRA BOBO
-[06Jul2023 03:50:18.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat has made the advancement [An adventure awaits you]
-[06Jul2023 03:55:16.591] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/19360, l='ServerLevel[world]', x=4501.30, y=73.56, z=77.43] died, message: 'Unemployed was slain by Vindicator'
-[06Jul2023 03:55:28.489] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/19376, l='ServerLevel[world]', x=4521.14, y=68.00, z=105.68] died, message: 'Farmer was slain by Vindicator'
-[06Jul2023 03:55:40.289] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/19368, l='ServerLevel[world]', x=4529.83, y=68.00, z=96.89] died, message: 'Unemployed was slain by Vindicator'
-[06Jul2023 03:59:53.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 has completed the challenge [Hero of the Village]
-[06Jul2023 03:59:55.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> EZ
-[06Jul2023 04:00:10.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> NAAAAAAAAAA
-[06Jul2023 04:00:21.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> NO ES INFINITO
-[06Jul2023 04:01:02.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> puedes dormir?
-[06Jul2023 04:01:06.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> TSU
-[06Jul2023 04:02:03.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> COMEME EL PENE
-[06Jul2023 04:03:17.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ÑAM NAÑ
-[06Jul2023 04:06:22.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> aaaaaaaa
-[06Jul2023 04:06:34.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> preñe a un bisonte
-[06Jul2023 04:08:12.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Milo384 to WestSideCoConat]
-[06Jul2023 04:08:25.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> bisonte
-[06Jul2023 04:08:28.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> semen
-[06Jul2023 04:08:46.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ya tiene semen
-[06Jul2023 04:08:54.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> no puedes volver a rellenarlo
-[06Jul2023 04:09:25.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> nice kok
-[06Jul2023 04:09:42.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> estas mojada?
-[06Jul2023 04:10:17.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> estas contruyendo nuestra cum zone
-[06Jul2023 04:10:21.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ?
-[06Jul2023 04:10:45.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> nos vimos puta
-[06Jul2023 04:11:22.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> xd
-[06Jul2023 04:11:53.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> me quieres?
-[06Jul2023 04:12:14.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> nono
-[06Jul2023 04:12:21.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> pidemelo
-[06Jul2023 04:12:24.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ruegame
-[06Jul2023 04:12:27.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> dime papi
-[06Jul2023 04:12:46.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> hsdahsdahsd
-[06Jul2023 04:12:56.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> husasdasjdnaskdmas
-[06Jul2023 04:13:05.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> bdasjkasdasdhasdj
-[06Jul2023 04:13:10.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> me muero
-[06Jul2023 04:14:35.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> pareces un npc
-[06Jul2023 04:15:19.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to Milo384]
-[06Jul2023 04:15:54.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> q
-[06Jul2023 04:16:21.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> dame cositas yo se que no necesitas diamente
-[06Jul2023 04:16:34.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> xd
-[06Jul2023 04:16:56.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> eres mi puta.
-[06Jul2023 04:17:46.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> deja uqe te preñe
-[06Jul2023 04:18:31.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> cae
-[06Jul2023 04:19:37.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> mia
-[06Jul2023 04:20:54.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> por uqe te vas?
-[06Jul2023 04:21:00.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> si estas comoda
-[06Jul2023 04:21:49.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> la proxima pide el favor
-[06Jul2023 04:21:52.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to Milo384]
-[06Jul2023 04:22:31.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> esta es la nueva llave
-[06Jul2023 04:22:36.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> para venir
-[06Jul2023 04:22:40.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> lee
-[06Jul2023 04:22:50.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> okok
-[06Jul2023 04:25:59.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> tus botas
-[06Jul2023 04:26:01.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> pontelas
-[06Jul2023 04:26:07.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> no me gustan los pies
-[06Jul2023 04:26:19.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> estoy subiendo a 25 pa mejorarlas
-[06Jul2023 04:26:45.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Gave -50 experience levels to WestSideCoConat]
-[06Jul2023 04:26:55.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> wtf
-[06Jul2023 04:27:02.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> q
-[06Jul2023 04:27:05.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> se me acaba de ir todo el lvl
-[06Jul2023 04:27:10.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> como
-[06Jul2023 04:27:32.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> no mrk tenia 23 y ahora 1 xd
-[06Jul2023 04:27:34.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> debe ser el lag
-[06Jul2023 04:27:40.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> sigue
-[06Jul2023 04:27:49.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Gave 23 experience levels to WestSideCoConat]
-[06Jul2023 04:28:13.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> ya me aburri
-[06Jul2023 04:28:20.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ?''''''''''''''''''''''
-[06Jul2023 04:28:24.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> dame prote 4 ahi de chill
-[06Jul2023 04:28:47.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> a ya volvieron los lvl
-[06Jul2023 04:28:59.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> que monda pasa ey wtf
-[06Jul2023 04:29:06.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> te di el libro
-[06Jul2023 04:29:18.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Gave 2300000 experience levels to WestSideCoConat]
-[06Jul2023 04:29:27.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> encanta
-[06Jul2023 04:29:51.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Gave -2300000 experience levels to WestSideCoConat]
-[06Jul2023 04:30:47.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> te bañaste hyo?
-[06Jul2023 04:30:52.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> hueles raro
-[06Jul2023 04:31:09.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> pq me acabo de cagar encima
-[06Jul2023 04:31:21.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> yo te limpio
-[06Jul2023 04:31:35.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> joder casi muero
-[06Jul2023 04:33:10.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> tenlo en la mano
-[06Jul2023 04:33:22.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat has reached the goal [Postmortal]
-[06Jul2023 04:33:22.211] [Server thread/INFO] [tombstone/]: The player WestSideCoConat has successfully been saved
-[06Jul2023 04:33:31.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ;)
-[06Jul2023 04:33:40.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> gracias por dañarme la armor bro
-[06Jul2023 04:33:48.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> son solo rasguños
-[06Jul2023 04:33:55.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> yo te lo recompezo
-[06Jul2023 04:34:14.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to Milo384]
-[06Jul2023 04:34:21.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> espero y confio en dio
-[06Jul2023 04:34:30.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> me gustas cuando ardes
-[06Jul2023 04:35:41.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Config for goblintraders of type SERVER not found]
-[06Jul2023 04:35:46.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Config for goblintraders of type CLIENT not found]
-[06Jul2023 04:35:50.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Config for goblintraders of type COMMON found at goblintraders-common.toml]
-[06Jul2023 04:37:26.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Set the weather to rain & thunder]
-[06Jul2023 04:37:54.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> no tienes por ahi un librito de fuego y tal
-[06Jul2023 04:39:36.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> tas como bonito
-[06Jul2023 04:39:41.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> te salio caldo?
-[06Jul2023 04:39:53.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> ti
-[06Jul2023 04:41:15.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Set the weather to clear]
-[06Jul2023 04:41:56.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to 1229.500000, 78.000000, 905.500000]
-[06Jul2023 04:42:00.497] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 lost connection: Disconnected
-[06Jul2023 04:42:00.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 left the game
-[06Jul2023 05:10:04.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[06Jul2023 05:10:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06Jul2023 05:10:04.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06Jul2023 05:10:04.151] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WestSideCoConat lost connection: Server closed
-[06Jul2023 05:10:04.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat left the game
-[06Jul2023 05:10:04.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06Jul2023 05:10:07.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06Jul2023 05:10:09.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06Jul2023 05:10:09.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06Jul2023 05:10:09.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06Jul2023 05:10:09.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06Jul2023 05:10:09.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06Jul2023 05:10:09.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06Jul2023 05:10:11.635] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Jul2023 00:33:41.209] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.1.0, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
+[07Jul2023 00:33:41.215] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.7 by Microsoft; OS Linux arch amd64 version 5.15.0-1041-azure
+[07Jul2023 00:33:43.942] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/minecraft-1.19.4/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[07Jul2023 00:33:44.541] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/fmlcore/1.19.4-45.1.0/fmlcore-1.19.4-45.1.0.jar is missing mods.toml file
+[07Jul2023 00:33:44.543] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.1.0/javafmllanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[07Jul2023 00:33:44.545] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.1.0/lowcodelanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[07Jul2023 00:33:44.546] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft-1.19.4/libraries/net/minecraftforge/mclanguage/1.19.4-45.1.0/mclanguage-1.19.4-45.1.0.jar is missing mods.toml file
+[07Jul2023 00:33:44.848] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[07Jul2023 00:33:47.682] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Jul2023 00:33:47.751] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[07Jul2023 00:33:47.857] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 31 options available, 0 override(s) found
+[07Jul2023 00:34:01.525] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.13...
+[07Jul2023 00:34:01.855] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.1.0, for MC 1.19.4 with MCP 20230314.122934
+[07Jul2023 00:34:01.855] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.1.0 Initialized
+[07Jul2023 00:34:07.013] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[07Jul2023 00:34:07.364] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[07Jul2023 00:34:07.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 2.1.0 Target: null
+[07Jul2023 00:34:07.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[07Jul2023 00:34:07.605] [main/INFO] [journeymap/]: Initializing Packet Registries
+[07Jul2023 00:34:07.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.4.2 Target: null
+[07Jul2023 00:34:07.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[07Jul2023 00:34:07.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.2.4 Target: null
+[07Jul2023 00:34:07.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[07Jul2023 00:34:07.702] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
+[07Jul2023 00:34:07.702] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
+[07Jul2023 00:34:07.703] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid_type.travelersbackpack.potion with the ID 2
+[07Jul2023 00:34:07.703] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for Milk with the ID 3
+[07Jul2023 00:34:07.748] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[07Jul2023 00:34:07.760] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[07Jul2023 00:34:07.775] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[07Jul2023 00:34:07.780] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[07Jul2023 00:34:07.782] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[07Jul2023 00:34:08.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
+[07Jul2023 00:34:08.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[07Jul2023 00:34:08.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA_OUTDATED Current: 1.8.1 Target: 1.8.2
+[07Jul2023 00:34:08.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Jul2023 00:34:08.534] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 45.1.0 Target: null
+[07Jul2023 00:34:08.535] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[07Jul2023 00:34:08.642] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.7 Target: null
+[07Jul2023 00:34:08.642] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[07Jul2023 00:34:08.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.6.2 Target: 1.9.7
+[07Jul2023 00:34:08.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[07Jul2023 00:34:08.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 8.4.10 Target: 8.4.11
+[07Jul2023 00:34:12.162] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Jul2023 00:34:14.985] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft-1.19.4/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
+[07Jul2023 00:34:14.986] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft-1.19.4/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
+[07Jul2023 00:34:17.309] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[07Jul2023 00:34:18.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[07Jul2023 00:34:18.848] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3157 advancements
+[07Jul2023 00:34:18.850] [main/INFO] [Dungeon Crawl/]: Loading data...
+[07Jul2023 00:34:19.152] [main/INFO] [Dungeon Crawl/]: Done.
+[07Jul2023 00:34:21.811] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
+[07Jul2023 00:34:21.812] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Jul2023 00:34:21.812] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Jul2023 00:34:21.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Jul2023 00:34:22.024] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Jul2023 00:34:22.064] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Jul2023 00:34:22.173] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Jul2023 00:34:22.174] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Jul2023 00:34:22.174] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Jul2023 00:34:22.175] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Jul2023 00:34:22.199] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Jul2023 00:34:22.201] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Jul2023 00:34:22.202] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Jul2023 00:34:22.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Jul2023 00:34:29.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Jul2023 00:34:34.686] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.716] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.718] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.720] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.726] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.728] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.732] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.734] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.737] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.739] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.742] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:34.755] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2023 00:34:35.255] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[07Jul2023 00:34:35.755] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[07Jul2023 00:34:36.104] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6850 ms
+[07Jul2023 00:34:36.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.912s)! For help, type "help"
+[07Jul2023 00:34:36.147] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Jul2023 00:39:49.295] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joverit[/[0:0:0:0:0:0:0:1%0]:34188] logged in with entity id 323 at (1347.5362738752872, 63.0, 967.7669944537362)
+[07Jul2023 00:39:49.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit joined the game
+[07Jul2023 00:39:49.409] [Server thread/INFO] [Jade/]: Syncing config to Joverit (17e1a5ac-df3c-3fbf-ab6b-dd39ac1f32ae)
+[07Jul2023 00:39:52.705] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3460ms or 69 ticks behind
+[07Jul2023 00:39:54.095] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EnderMan['Enderman'/441, l='ServerLevel[world]', x=1428.38, y=71.00, z=917.62]
+[07Jul2023 00:39:56.900] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityGazelle['Gazelle'/587, l='ServerLevel[world]', x=1504.04, y=91.00, z=1057.94]
+[07Jul2023 00:40:27.058] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Sheep['Sheep'/757, l='ServerLevel[world]', x=1308.52, y=81.00, z=1168.16]
+[07Jul2023 01:01:58.307] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Butifarra69[/[0:0:0:0:0:0:0:1%0]:43520] logged in with entity id 7350 at (1223.919448026674, 72.0, 911.6614984970355)
+[07Jul2023 01:01:58.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Butifarra69 joined the game
+[07Jul2023 01:01:58.390] [Server thread/INFO] [Jade/]: Syncing config to Butifarra69 (ffbf7989-09b5-35dc-a358-92e4dcdad7e7)
+[07Jul2023 01:02:44.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> como va yur jaus
+[07Jul2023 01:02:51.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> pues se me perdieron empila vainas
+[07Jul2023 01:02:54.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> camas, hornos y eso
+[07Jul2023 01:03:04.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> parece que se me perdieron de mi inventario cuando se cerró el server
+[07Jul2023 01:03:05.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> cuando
+[07Jul2023 01:03:11.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> a
+[07Jul2023 01:04:03.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> a mi se me bugeo tambien
+[07Jul2023 01:04:12.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> ahora ni se que cosas se me perdieron
+[07Jul2023 01:04:13.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> pero me dieron fue la misma cosa 2 veces
+[07Jul2023 01:04:18.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> D:
+[07Jul2023 01:04:44.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> sigue construyendo y cuando vea q te falta algo eso e
+[07Jul2023 01:04:47.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> ajap
+[07Jul2023 01:04:50.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> lkjlakdjal
+[07Jul2023 01:16:44.206] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Milo384[/[0:0:0:0:0:0:0:1%0]:49930] logged in with entity id 11277 at (658.6999999880791, 66.0, 372.69999998807907)
+[07Jul2023 01:16:44.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 joined the game
+[07Jul2023 01:16:44.288] [Server thread/INFO] [Jade/]: Syncing config to Milo384 (bc3b4504-8bbf-3d83-920a-e6f3b959db33)
+[07Jul2023 01:16:47.863] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3618ms or 72 ticks behind
+[07Jul2023 01:17:00.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> have sex
+[07Jul2023 01:17:09.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> mk gabriel se me desaparecieron como 100 cosas del inventario por el cerrado repentino del server :((((
+[07Jul2023 01:17:23.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> felicitaciones
+[07Jul2023 01:17:37.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> :)
+[07Jul2023 01:17:38.828] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EnderMan['Enderman'/11758, l='ServerLevel[world]', x=904.02, y=64.00, z=383.18]
+[07Jul2023 01:17:59.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Milo384 to Butifarra69]
+[07Jul2023 01:18:06.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> enderman
+[07Jul2023 01:18:08.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> spawn
+[07Jul2023 01:18:13.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> cor
+[07Jul2023 01:18:15.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> cord
+[07Jul2023 01:18:16.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> [name:"Spawn End", x:506, y:34, z:-2378, dim:minecraft:overworld]
+[07Jul2023 01:18:24.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> buena chica
+[07Jul2023 01:18:43.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joverit moved too quickly! 5.404351858193422,1.1661092609382138,8.505059831735252
+[07Jul2023 01:18:46.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> dame 15 de exp acambio uwu
+[07Jul2023 01:18:54.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> nya
+[07Jul2023 01:19:01.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> 15 de xp no es nada lol
+[07Jul2023 01:19:04.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> no es ni un level
+[07Jul2023 01:19:13.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> para las putas hay mas, dime papi y te doy 25
+[07Jul2023 01:19:19.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> 25 q
+[07Jul2023 01:19:22.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> exp
+[07Jul2023 01:19:29.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> eso cuantos niveles son
+[07Jul2023 01:19:38.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> eres bobo
+[07Jul2023 01:19:40.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> sklfjskñgjdl
+[07Jul2023 01:19:41.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ?
+[07Jul2023 01:19:47.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> 25 xp no es lo mismo que 25 niveles
+[07Jul2023 01:19:48.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ya no te doy na
+[07Jul2023 01:19:54.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> :C
+[07Jul2023 01:19:54.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> hablo de level
+[07Jul2023 01:19:58.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> aclara
+[07Jul2023 01:20:01.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> despues me lo estafas
+[07Jul2023 01:20:18.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> adk
+[07Jul2023 01:20:20.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> afk
+[07Jul2023 01:20:48.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> anda en el spawn equisde
+[07Jul2023 01:24:00.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> jose aqui andan tus amigas
+[07Jul2023 01:24:07.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> phantoms?
+[07Jul2023 01:24:11.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> ballenas
+[07Jul2023 01:24:13.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> mlps
+[07Jul2023 01:28:16.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Butifarra69) moved wrongly! 0.3476544281970746
+[07Jul2023 01:28:16.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Butifarra69) moved wrongly! 0.5614989090711333
+[07Jul2023 01:28:16.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Butifarra69) moved wrongly! 0.7923744946560873
+[07Jul2023 01:32:01.187] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.25836221634233425
+[07Jul2023 01:32:01.282] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.767938431966968
+[07Jul2023 01:32:01.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.2921389913700523
+[07Jul2023 01:32:01.336] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5010408950447527
+[07Jul2023 01:32:01.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.0372537549338858
+[07Jul2023 01:32:01.443] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5074684375354082
+[07Jul2023 01:32:01.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5086672505882461
+[07Jul2023 01:32:01.542] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.0489608212756139
+[07Jul2023 01:32:01.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5096519445228296
+[07Jul2023 01:32:01.643] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5098356016427488
+[07Jul2023 01:32:01.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.50993387290589
+[07Jul2023 01:32:01.731] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5099864558994796
+[07Jul2023 01:32:01.811] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5100145920109753
+[07Jul2023 01:32:01.834] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5100296470832291
+[07Jul2023 01:32:01.885] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5098169645983717
+[07Jul2023 01:32:01.944] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5068285738570921
+[07Jul2023 01:32:02.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4932368205122657
+[07Jul2023 01:32:02.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4784949846598465
+[07Jul2023 01:32:02.099] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.478959859060069
+[07Jul2023 01:32:02.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4877776313310278
+[07Jul2023 01:32:02.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.495894415421958
+[07Jul2023 01:32:02.303] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5024742221163478
+[07Jul2023 01:32:02.305] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.0373000043771299
+[07Jul2023 01:32:02.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4961803146015882
+[07Jul2023 01:32:02.402] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.0093609544301216
+[07Jul2023 01:38:35.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> sex
+[07Jul2023 01:38:46.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> yes
+[07Jul2023 01:38:50.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> is bad for health
+[07Jul2023 01:38:57.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> 3 of 5 americans die having sex
+[07Jul2023 01:39:22.415] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.2538012042493847
+[07Jul2023 01:39:22.455] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.7550834457471183
+[07Jul2023 01:39:22.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.49011860051575695
+[07Jul2023 01:39:22.587] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.011068525667497
+[07Jul2023 01:39:22.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4949991924391952
+[07Jul2023 01:39:22.669] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.017913988018904
+[07Jul2023 01:39:22.760] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.49605055542986065
+[07Jul2023 01:39:22.798] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.49673559045288584
+[07Jul2023 01:39:22.799] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.49787981261033565
+[07Jul2023 01:39:22.879] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.0250379327524115
+[07Jul2023 01:39:22.934] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5012927628923762
+[07Jul2023 01:39:22.937] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4998518677332413
+[07Jul2023 01:39:22.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.0261634530284027
+[07Jul2023 01:39:23.104] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4986683297994432
+[07Jul2023 01:39:23.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.498447585910867
+[07Jul2023 01:39:23.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.49832947025720387
+[07Jul2023 01:39:23.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.0281950391887449
+[07Jul2023 01:39:23.290] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5049385837570526
+[07Jul2023 01:39:23.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.038340557550896
+[07Jul2023 01:39:23.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5068308434905475
+[07Jul2023 01:39:23.397] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 1.0412453277402847
+[07Jul2023 01:39:23.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5073726176482296
+[07Jul2023 01:39:23.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5074736649664828
+[07Jul2023 01:39:23.558] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5075277333718304
+[07Jul2023 01:39:23.598] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.5052226390591841
+[07Jul2023 01:39:23.672] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.49479821287059167
+[07Jul2023 01:39:23.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.48499941833836147
+[07Jul2023 01:39:23.754] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4727545478689308
+[07Jul2023 01:39:23.794] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.4684652965629539
+[07Jul2023 01:39:23.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of Joverit) moved wrongly! 0.40872754352665197
+[07Jul2023 01:39:45.562] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[07Jul2023 01:44:00.168] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WestSideCoConat[/[0:0:0:0:0:0:0:1%0]:48052] logged in with entity id 35212 at (-272.0246712214515, -10.0, 743.3000000119209)
+[07Jul2023 01:44:00.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat joined the game
+[07Jul2023 01:44:00.205] [Server thread/INFO] [Jade/]: Syncing config to WestSideCoConat (29344e0f-2841-3c5c-aa65-b8040e19890d)
+[07Jul2023 01:44:02.762] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2617ms or 52 ticks behind
+[07Jul2023 01:44:23.096] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[07Jul2023 01:44:40.747] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2652ms or 53 ticks behind
+[07Jul2023 01:44:58.097] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2352ms or 47 ticks behind
+[07Jul2023 01:45:11.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> hello
+[07Jul2023 01:45:15.738] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2643ms or 52 ticks behind
+[07Jul2023 01:45:24.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> [name:"Luisfer ", x:671, y:66, z:371, dim:minecraft:overworld]
+[07Jul2023 01:45:28.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> q
+[07Jul2023 01:45:28.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> tepeame ahi
+[07Jul2023 01:45:33.039] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2344ms or 46 ticks behind
+[07Jul2023 01:45:39.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> al menos di por favor
+[07Jul2023 01:45:40.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> nojoda
+[07Jul2023 01:45:44.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> pli
+[07Jul2023 01:45:44.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> KLAJKLAJDKÑLA
+[07Jul2023 01:45:55.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to 671.500000, 66.000000, 371.500000]
+[07Jul2023 01:45:55.321] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5476ms or 109 ticks behind
+[07Jul2023 01:45:55.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Butifarra69 moved too quickly! -0.8681977873125106,1.816600003182888,9.932123035826464
+[07Jul2023 01:46:06.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> alguien tiene pa rompe bloque reforzao?
+[07Jul2023 01:46:14.118] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3823ms or 76 ticks behind
+[07Jul2023 01:46:27.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> como se llama el item
+[07Jul2023 01:46:34.500] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5405ms or 108 ticks behind
+[07Jul2023 01:46:55.286] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5791ms or 115 ticks behind
+[07Jul2023 01:47:07.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> eliminador de bloque universal
+[07Jul2023 01:47:14.955] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4710ms or 94 ticks behind
+[07Jul2023 01:47:18.499] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 1.0,10.188656931040008,-0.654273539978476
+[07Jul2023 01:47:19.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> tijera y dos de hierro
+[07Jul2023 01:47:25.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> xd
+[07Jul2023 01:47:30.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> supongo q tenei eso
+[07Jul2023 01:47:33.733] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3788ms or 75 ticks behind
+[07Jul2023 01:47:41.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> claro cabron
+[07Jul2023 01:47:51.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> estoy literalmente sin nada
+[07Jul2023 01:47:52.877] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4182ms or 83 ticks behind
+[07Jul2023 01:48:01.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> todo estaba en la tombstone
+[07Jul2023 01:48:08.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> bue, bueno, haste uno con el hierro d emi casa y vas a buscar tus weas
+[07Jul2023 01:48:10.663] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2818ms or 56 ticks behind
+[07Jul2023 01:48:46.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> te gastas solo los 4 de hierro y ya mamapinga
+[07Jul2023 01:48:54.950] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[07Jul2023 01:50:36.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Milo384 to WestSideCoConat]
+[07Jul2023 01:50:44.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> mmmmmm
+[07Jul2023 01:50:47.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> le estas roband?
+[07Jul2023 01:50:56.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> solo el trigo xd
+[07Jul2023 01:51:04.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> ?
+[07Jul2023 01:51:08.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ???????????
+[07Jul2023 01:51:11.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> lo admitio
+[07Jul2023 01:51:14.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> castigo
+[07Jul2023 01:51:17.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> bajate el pantalon
+[07Jul2023 01:51:35.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> huele
+[07Jul2023 01:51:38.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> el trigo pq voy a viajar 800m y no me quiero mori
+[07Jul2023 01:52:20.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> 20 diamantes
+[07Jul2023 01:52:21.747] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[07Jul2023 01:52:23.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> donde estan?
+[07Jul2023 01:52:45.667] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[07Jul2023 01:52:54.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> tienes hierro ahi?
+[07Jul2023 01:53:12.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> prestame para hacer el coso ese
+[07Jul2023 01:53:20.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> a quien le deci
+[07Jul2023 01:53:26.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> al gabrie
+[07Jul2023 01:53:26.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> eso no te va a sevir
+[07Jul2023 01:53:53.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat was blown up by Creeper
+[07Jul2023 01:53:54.001] [Server thread/INFO] [tombstone/]: The player WestSideCoConat has successfully been saved
+[07Jul2023 01:53:55.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> xd
+[07Jul2023 01:53:57.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> xD
+[07Jul2023 01:54:00.405] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joverit moved too quickly! -3.311256589156528,-0.395575898673286,9.474244598372934
+[07Jul2023 01:54:00.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> AHSDJDSAJDHADAS{
+[07Jul2023 01:54:00.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> KLJFLKAHAK
+[07Jul2023 01:54:04.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> replay
+[07Jul2023 01:54:13.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to Milo384]
+[07Jul2023 01:54:25.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> esta ahi todo
+[07Jul2023 01:54:28.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> acercate
+[07Jul2023 01:54:31.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> tomalo
+[07Jul2023 01:54:39.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> OL
+[07Jul2023 01:54:39.854] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[07Jul2023 01:54:41.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> loplplo
+[07Jul2023 01:54:43.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> LOL
+[07Jul2023 01:54:48.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> lo tomo
+[07Jul2023 01:54:48.916] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 2 bison_fur because there is no smelting recipe
+[07Jul2023 01:55:01.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> pro o hacker
+[07Jul2023 01:55:13.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> JAVA SCRIP
+[07Jul2023 01:55:59.148] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[07Jul2023 01:56:07.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> tomalo mauro
+[07Jul2023 01:56:15.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> te faltan cosas
+[07Jul2023 01:56:18.383] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4238ms or 84 ticks behind
+[07Jul2023 01:56:46.461] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 2 bison_fur because there is no smelting recipe
+[07Jul2023 01:57:47.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> tu casco
+[07Jul2023 01:57:58.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> se me partio xd
+[07Jul2023 01:58:03.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> esta hiiiiiiiiiiiii
+[07Jul2023 01:58:05.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ahiiiiiiiii
+[07Jul2023 01:58:17.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ponte cerca
+[07Jul2023 01:58:18.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Butifarra69> sale call?
+[07Jul2023 01:58:21.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ya
+[07Jul2023 01:59:49.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat has reached the goal [A Small Cemetery]
+[07Jul2023 02:04:56.602] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[07Jul2023 02:05:14.175] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2580ms or 51 ticks behind
+[07Jul2023 02:05:31.856] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2711ms or 54 ticks behind
+[07Jul2023 02:05:52.351] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[07Jul2023 02:06:09.435] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2090ms or 41 ticks behind
+[07Jul2023 02:06:49.799] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[07Jul2023 02:07:09.337] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4542ms or 90 ticks behind
+[07Jul2023 02:07:28.026] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3731ms or 74 ticks behind
+[07Jul2023 02:07:45.431] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2436ms or 48 ticks behind
+[07Jul2023 02:08:11.599] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[07Jul2023 02:09:42.550] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[07Jul2023 02:09:45.020] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 lost connection: Disconnected
+[07Jul2023 02:09:45.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 left the game
+[07Jul2023 02:10:26.172] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WestSideCoConat lost connection: Kicked by an operator
+[07Jul2023 02:10:26.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat left the game
+[07Jul2023 02:10:26.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kicked WestSideCoConat: Kicked by an operator
+[07Jul2023 02:10:26.218] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[07Jul2023 02:10:54.978] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WestSideCoConat[/[0:0:0:0:0:0:0:1%0]:46000] logged in with entity id 55560 at (1217.5180728316252, 72.0, 900.8168593535484)
+[07Jul2023 02:10:54.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat joined the game
+[07Jul2023 02:10:55.054] [Server thread/INFO] [Jade/]: Syncing config to WestSideCoConat (29344e0f-2841-3c5c-aa65-b8040e19890d)
+[07Jul2023 02:10:56.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> [name:"Canabal home", x:1229, y:78, z:905, dim:minecraft:overworld]
+[07Jul2023 02:11:09.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Joverit to 1229.500000, 78.000000, 905.500000
+[07Jul2023 02:11:28.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit was slain by Phantom
+[07Jul2023 02:11:29.918] [Server thread/INFO] [tombstone/]: The player Joverit has successfully been saved
+[07Jul2023 02:11:42.938] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luisfer153[/[0:0:0:0:0:0:0:1%0]:35202] logged in with entity id 55791 at (657.4618988291758, 66.0, 369.9036617675609)
+[07Jul2023 02:11:42.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 joined the game
+[07Jul2023 02:11:42.976] [Server thread/INFO] [Jade/]: Syncing config to luisfer153 (85a2ab14-8f3c-3d23-9bc3-af09496d753f)
+[07Jul2023 02:11:45.552] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2557ms or 51 ticks behind
+[07Jul2023 02:12:11.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Butifarra69: cuidado mauro es gay
+[07Jul2023 02:12:11.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to WestSideCoConat: cuidado mauro es gay
+[07Jul2023 02:12:11.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Joverit: cuidado mauro es gay
+[07Jul2023 02:12:11.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to luisfer153: cuidado mauro es gay
+[07Jul2023 02:12:24.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> :0
+[07Jul2023 02:13:04.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to luisfer153: mauro
+[07Jul2023 02:14:27.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Butifarra69: no te sientas mal bb,
+[07Jul2023 02:15:35.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the weather to rain & thunder
+[07Jul2023 02:17:04.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WestSideCoConat> xxx
+[07Jul2023 02:20:19.329] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joverit lost connection: Disconnected
+[07Jul2023 02:20:19.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit left the game
+[07Jul2023 02:21:44.139] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joverit[/[0:0:0:0:0:0:0:1%0]:46808] logged in with entity id 60717 at (1324.761718210036, 65.0, 983.7819246349792)
+[07Jul2023 02:21:44.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit joined the game
+[07Jul2023 02:21:44.186] [Server thread/INFO] [Jade/]: Syncing config to Joverit (17e1a5ac-df3c-3fbf-ab6b-dd39ac1f32ae)
+[07Jul2023 02:26:24.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[07Jul2023 02:26:24.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: si<--[HERE]
+[07Jul2023 02:26:35.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[07Jul2023 02:26:35.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: all si<--[HERE]
+[07Jul2023 02:28:37.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Joverit: mauro
+[07Jul2023 02:31:16.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Butifarra69:  hola
+[07Jul2023 02:31:29.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit was shot by Skeleton
+[07Jul2023 02:31:31.456] [Server thread/INFO] [tombstone/]: The player Joverit has successfully been saved
+[07Jul2023 02:31:31.930] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[07Jul2023 02:36:14.348] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[07Jul2023 02:36:37.852] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[07Jul2023 02:37:00.007] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[07Jul2023 02:37:17.494] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2499ms or 49 ticks behind
+[07Jul2023 02:37:34.562] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2117ms or 42 ticks behind
+[07Jul2023 02:37:54.448] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[07Jul2023 02:38:11.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joverit> [name:"My home", x:1332, y:71, z:987, dim:minecraft:overworld]
+[07Jul2023 02:38:12.048] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2603ms or 52 ticks behind
+[07Jul2023 02:38:29.979] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2934ms or 58 ticks behind
+[07Jul2023 02:38:47.384] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2439ms or 48 ticks behind
+[07Jul2023 02:40:21.317] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Milo384[/[0:0:0:0:0:0:0:1%0]:41338] logged in with entity id 70489 at (625.4739832248155, 62.136553779332395, 270.83688032496906)
+[07Jul2023 02:40:21.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 joined the game
+[07Jul2023 02:40:21.357] [Server thread/INFO] [Jade/]: Syncing config to Milo384 (bc3b4504-8bbf-3d83-920a-e6f3b959db33)
+[07Jul2023 02:40:35.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Milo384 to luisfer153]
+[07Jul2023 02:40:36.238] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
+[07Jul2023 02:40:38.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit has made the advancement [Black or White]
+[07Jul2023 02:40:58.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit has reached the goal [A Small Cemetery]
+[07Jul2023 02:48:53.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> si
+[07Jul2023 02:49:03.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> sono
+[07Jul2023 02:50:28.736] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1230, y=70, z=1068} BlockPos{x=1230, y=69, z=1070}
+[07Jul2023 02:50:33.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Butifarra69 has made the advancement [Black or White]
+[07Jul2023 02:50:36.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joverit moved too quickly! 0.08936180843696206,-10.867409983895094,-0.019663834511334244
+[07Jul2023 02:50:38.506] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joverit lost connection: Disconnected
+[07Jul2023 02:50:38.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit left the game
+[07Jul2023 02:50:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Butifarra69 has reached the goal [A Small Cemetery]
+[07Jul2023 02:51:07.846] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joverit[/[0:0:0:0:0:0:0:1%0]:34474] logged in with entity id 75440 at (165.07732356172397, 27.218960828249774, 166.64668484168905)
+[07Jul2023 02:51:07.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit joined the game
+[07Jul2023 02:51:07.859] [Server thread/INFO] [Jade/]: Syncing config to Joverit (17e1a5ac-df3c-3fbf-ab6b-dd39ac1f32ae)
+[07Jul2023 02:51:12.589] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Exception loading entity: 
+net.minecraft.ReportedException: Loading entity NBT
+	at net.minecraft.world.entity.Entity.m_20258_(Entity.java:1649) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.world.entity.EntityType.m_185988_(EntityType.java:532) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.Util.m_137521_(Util.java:418) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.world.entity.EntityType.m_20642_(EntityType.java:529) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.world.entity.EntityType.m_20669_(EntityType.java:607) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.world.entity.EntityType.m_20645_(EntityType.java:563) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.world.entity.EntityType$1.m_147056_(EntityType.java:584) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856) ~[?:?]
+	at net.minecraft.world.entity.EntityType$1.tryAdvance(EntityType.java:583) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at java.util.Spliterator.forEachRemaining(Spliterator.java:332) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.EntityStorage.m_223456_(EntityStorage.java:62) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:773) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:162) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:756) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:750) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:736) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:668) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.IllegalStateException: Entity has invalid position
+	at net.minecraft.world.entity.Entity.m_20258_(Entity.java:1643) ~[server-1.19.4-20230314.122934-srg.jar%23141!/:?]
+	... 33 more
+[07Jul2023 02:51:15.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit tried to swim in lava
+[07Jul2023 02:51:17.322] [Server thread/INFO] [tombstone/]: The player Joverit has successfully been saved
+[07Jul2023 02:52:31.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Milo384 to Butifarra69]
+[07Jul2023 02:53:05.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ???????????????????????'
+[07Jul2023 02:53:12.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> los voy a matar
+[07Jul2023 02:53:23.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit blew up
+[07Jul2023 02:53:25.058] [Server thread/INFO] [tombstone/]: The player Joverit has successfully been saved
+[07Jul2023 02:53:49.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> los voy a matar
+[07Jul2023 02:53:56.555] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for WestSideCoConat with unique ID 58c8ea5b-c67a-4579-bffa-5304128af3e5
+[07Jul2023 02:53:56.558] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 1365 Y: 61 Z: 948
+[07Jul2023 02:53:56.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat was slain by Cachalot Whale
+[07Jul2023 02:53:56.579] [Server thread/INFO] [tombstone/]: The player WestSideCoConat has successfully been saved
+[07Jul2023 02:53:59.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ez
+[07Jul2023 02:54:06.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joverit moved too quickly! -6.421517488294171,-4.858926989679965,6.069769375189111
+[07Jul2023 02:54:14.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> matenla
+[07Jul2023 02:54:16.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> dale
+[07Jul2023 02:54:19.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> los dos
+[07Jul2023 02:54:31.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> matenal
+[07Jul2023 02:55:36.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Joverit to Milo384]
+[07Jul2023 02:55:54.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> 1 no es nada
+[07Jul2023 02:56:04.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> nya
+[07Jul2023 02:57:11.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.6861913355724027,-0.09600942432161474,-10.278444679497284
+[07Jul2023 02:57:45.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> no
+[07Jul2023 02:57:56.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> mata a una ballena
+[07Jul2023 02:57:57.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> si
+[07Jul2023 02:58:05.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> a espada
+[07Jul2023 02:58:12.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> si
+[07Jul2023 02:59:23.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> jiji
+[07Jul2023 02:59:47.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> MATALA
+[07Jul2023 02:59:54.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> VIOLALA
+[07Jul2023 03:00:23.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> AMI
+[07Jul2023 03:00:25.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> NOJODA
+[07Jul2023 03:00:27.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> WTF
+[07Jul2023 03:00:29.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ME ODIAN
+[07Jul2023 03:00:34.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> AAAAAAAAAAA
+[07Jul2023 03:00:36.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> YA SE
+[07Jul2023 03:00:42.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> PORQUE YO LE PEGUE PRIMERO
+[07Jul2023 03:00:48.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ME MIRA A MI
+[07Jul2023 03:00:52.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> MIRA
+[07Jul2023 03:01:08.257] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for luisfer153 with unique ID ea41d370-29e0-4750-bae6-ea08bde70809
+[07Jul2023 03:01:08.258] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 1318 Y: 57 Z: 1015
+[07Jul2023 03:01:08.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 has completed the challenge [Almost Unkillable]
+[07Jul2023 03:01:08.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 was slain by Cachalot Whale
+[07Jul2023 03:01:09.469] [Server thread/INFO] [tombstone/]: The player luisfer153 has successfully been saved
+[07Jul2023 03:01:09.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 5.085507214782865,9.79549402538138,-3.4206636996249244
+[07Jul2023 03:01:11.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> XD
+[07Jul2023 03:01:15.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported luisfer153 to Milo384]
+[07Jul2023 03:01:28.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> 3
+[07Jul2023 03:02:07.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported luisfer153 to Milo384]
+[07Jul2023 03:03:18.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> toma
+[07Jul2023 03:03:28.249] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[07Jul2023 03:03:34.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> nya
+[07Jul2023 03:03:45.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Milo384 to WestSideCoConat]
+[07Jul2023 03:03:53.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Milo384 to luisfer153]
+[07Jul2023 03:04:02.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to Milo384]
+[07Jul2023 03:04:39.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> como me gusta que trabajen para mi
+[07Jul2023 03:04:58.425] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[07Jul2023 03:05:37.396] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[07Jul2023 03:05:51.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> la mamada al final ok?
+[07Jul2023 03:06:18.497] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[07Jul2023 03:06:35.500] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[07Jul2023 03:06:52.552] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
+[07Jul2023 03:06:54.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Exsanguination to WestSideCoConat]
+[07Jul2023 03:07:10.386] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joverit lost connection: Disconnected
+[07Jul2023 03:07:10.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joverit left the game
+[07Jul2023 03:07:11.817] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4272ms or 85 ticks behind
+[07Jul2023 03:07:15.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat has made the advancement [Race Against The Clock]
+[07Jul2023 03:07:15.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Ender Flu to WestSideCoConat]
+[07Jul2023 03:07:17.815] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for WestSideCoConat with unique ID 575c540c-1125-4180-b370-0af6cca2364b
+[07Jul2023 03:07:17.816] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: -269 Y: -10 Z: 760
+[07Jul2023 03:07:17.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat was killed by magic whilst trying to escape Zombie
+[07Jul2023 03:07:17.831] [Server thread/INFO] [tombstone/]: The player WestSideCoConat has successfully been saved
+[07Jul2023 03:07:32.043] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5248ms or 104 ticks behind
+[07Jul2023 03:07:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> yAINJSKSIDJKMADASKDAS
+[07Jul2023 03:07:36.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> SADJKASDNASJKALSDASDKASDAS
+[07Jul2023 03:07:38.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> AJSDKASLDMKSADKSADÑAS
+[07Jul2023 03:07:39.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ADSIJASDKASDASKDAS
+[07Jul2023 03:07:42.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ADSKJDASDHKASJDASKDJADASDA
+[07Jul2023 03:07:52.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> DASJKDASKDMASDLKASDASLJDMASLKDAS
+[07Jul2023 03:07:55.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> NOSDJAMSLDKMASDKLASDMAKSLDAMSKDMASKDSAD
+[07Jul2023 03:07:59.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> MDASKDASKJDMLASDMKASAS
+[07Jul2023 03:08:08.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> SADJKLAMDKLASDASDASDAS
+[07Jul2023 03:08:12.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> NO PUEDO
+[07Jul2023 03:08:30.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: The difficulty has been set to Peaceful]
+[07Jul2023 03:08:57.369] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3374ms or 67 ticks behind
+[07Jul2023 03:09:24.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> hay por todas partes
+[07Jul2023 03:09:27.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> esta repleto
+[07Jul2023 03:09:40.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> ssssiiiiiiii
+[07Jul2023 03:09:43.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> no se van
+[07Jul2023 03:10:28.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> entren todos
+[07Jul2023 03:10:40.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> entre al stream
+[07Jul2023 03:11:09.193] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[07Jul2023 03:11:13.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 has made the advancement [Ender Distancing]
+[07Jul2023 03:11:13.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Milo384 has made the advancement [Capsid-19]
+[07Jul2023 03:11:28.788] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4643ms or 92 ticks behind
+[07Jul2023 03:11:46.191] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2446ms or 48 ticks behind
+[07Jul2023 03:12:12.009] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[07Jul2023 03:12:29.305] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[07Jul2023 03:12:46.489] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2194ms or 43 ticks behind
+[07Jul2023 03:13:29.805] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[07Jul2023 03:13:49.765] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4970ms or 99 ticks behind
+[07Jul2023 03:14:10.425] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5680ms or 113 ticks behind
+[07Jul2023 03:14:33.132] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7737ms or 154 ticks behind
+[07Jul2023 03:14:53.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to Milo384]
+[07Jul2023 03:15:01.271] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13176ms or 263 ticks behind
+[07Jul2023 03:15:13.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat has made the advancement [Capsid-19]
+[07Jul2023 03:15:22.764] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6519ms or 130 ticks behind
+[07Jul2023 03:15:32.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Power Outage to WestSideCoConat]
+[07Jul2023 03:15:42.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Power Outage to WestSideCoConat]
+[07Jul2023 03:15:43.811] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6066ms or 121 ticks behind
+[07Jul2023 03:15:47.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Power Outage to WestSideCoConat]
+[07Jul2023 03:15:56.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Power Outage to WestSideCoConat]
+[07Jul2023 03:16:06.921] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8126ms or 162 ticks behind
+[07Jul2023 03:16:10.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Oiled to WestSideCoConat]
+[07Jul2023 03:16:25.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Removed every effect from WestSideCoConat]
+[07Jul2023 03:16:27.717] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5822ms or 116 ticks behind
+[07Jul2023 03:16:39.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Ender Flu to WestSideCoConat]
+[07Jul2023 03:16:40.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat was killed by magic
+[07Jul2023 03:16:40.921] [Server thread/INFO] [tombstone/]: The player WestSideCoConat has successfully been saved
+[07Jul2023 03:16:56.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported WestSideCoConat to Milo384]
+[07Jul2023 03:17:28.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Scared Still to WestSideCoConat]
+[07Jul2023 03:18:41.167] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[07Jul2023 03:19:05.996] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9851ms or 197 ticks behind
+[07Jul2023 03:19:23.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat has made the advancement [Ender Distancing]
+[07Jul2023 03:19:29.484] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8489ms or 169 ticks behind
+[07Jul2023 03:19:51.030] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6585ms or 131 ticks behind
+[07Jul2023 03:20:16.334] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10339ms or 206 ticks behind
+[07Jul2023 03:20:19.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Earthquake to WestSideCoConat]
+[07Jul2023 03:20:42.565] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11270ms or 225 ticks behind
+[07Jul2023 03:20:48.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Removed every effect from WestSideCoConat]
+[07Jul2023 03:21:03.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Stun to WestSideCoConat]
+[07Jul2023 03:21:06.382] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8837ms or 176 ticks behind
+[07Jul2023 03:21:11.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Stun to WestSideCoConat]
+[07Jul2023 03:21:13.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Stun to WestSideCoConat]
+[07Jul2023 03:21:17.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Stun to WestSideCoConat]
+[07Jul2023 03:21:28.821] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7476ms or 149 ticks behind
+[07Jul2023 03:21:29.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Stun to Butifarra69]
+[07Jul2023 03:21:45.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Stun to luisfer153]
+[07Jul2023 03:21:51.358] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7563ms or 151 ticks behind
+[07Jul2023 03:22:05.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Stun to Milo384]
+[07Jul2023 03:22:12.840] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6495ms or 129 ticks behind
+[07Jul2023 03:22:24.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Mercy to Milo384]
+[07Jul2023 03:22:33.806] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6011ms or 120 ticks behind
+[07Jul2023 03:22:41.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Bait to Milo384]
+[07Jul2023 03:22:46.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Bait to Milo384]
+[07Jul2023 03:22:54.521] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5726ms or 114 ticks behind
+[07Jul2023 03:22:58.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Speed to Milo384]
+[07Jul2023 03:23:11.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved wrongly!
+[07Jul2023 03:23:16.161] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6666ms or 133 ticks behind
+[07Jul2023 03:23:20.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Speed to luisfer153]
+[07Jul2023 03:23:21.188] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved wrongly!
+[07Jul2023 03:23:27.515] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved wrongly!
+[07Jul2023 03:23:35.964] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4819ms or 96 ticks behind
+[07Jul2023 03:23:38.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> chupala
+[07Jul2023 03:23:41.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> has los sonidps
+[07Jul2023 03:23:55.553] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4608ms or 92 ticks behind
+[07Jul2023 03:24:15.474] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4930ms or 98 ticks behind
+[07Jul2023 03:24:35.180] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4736ms or 94 ticks behind
+[07Jul2023 03:24:44.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: The difficulty has been set to Hard]
+[07Jul2023 03:24:45.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> jiji
+[07Jul2023 03:24:59.588] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9443ms or 188 ticks behind
+[07Jul2023 03:25:25.948] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11403ms or 228 ticks behind
+[07Jul2023 03:25:49.872] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8927ms or 178 ticks behind
+[07Jul2023 03:25:52.358] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/sounds/SoundInstance for invalid dist DEDICATED_SERVER
+[07Jul2023 03:25:55.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Earthquake to luisfer153]
+[07Jul2023 03:26:07.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Earthquake to Milo384]
+[07Jul2023 03:26:14.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Earthquake to Butifarra69]
+[07Jul2023 03:26:16.336] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11491ms or 229 ticks behind
+[07Jul2023 03:26:34.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Oiled to Milo384]
+[07Jul2023 03:26:44.380] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13085ms or 261 ticks behind
+[07Jul2023 03:26:49.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Ghostly Shape to Milo384]
+[07Jul2023 03:27:11.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12097ms or 241 ticks behind
+[07Jul2023 03:27:16.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Blazing Brand to Milo384]
+[07Jul2023 03:27:36.032] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9637ms or 192 ticks behind
+[07Jul2023 03:28:01.479] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10484ms or 209 ticks behind
+[07Jul2023 03:28:03.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Diversion to Milo384]
+[07Jul2023 03:28:19.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Discretion to Milo384]
+[07Jul2023 03:28:29.620] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13176ms or 263 ticks behind
+[07Jul2023 03:28:31.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Strength to Milo384]
+[07Jul2023 03:28:52.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Saturation to Milo384]
+[07Jul2023 03:28:55.725] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11130ms or 222 ticks behind
+[07Jul2023 03:29:10.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Levitation to Milo384]
+[07Jul2023 03:29:20.024] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9330ms or 186 ticks behind
+[07Jul2023 03:29:24.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Levitation to luisfer153]
+[07Jul2023 03:29:46.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Levitation to luisfer153]
+[07Jul2023 03:29:46.750] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11755ms or 235 ticks behind
+[07Jul2023 03:30:12.262] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10517ms or 210 ticks behind
+[07Jul2023 03:30:18.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:30:35.678] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8434ms or 168 ticks behind
+[07Jul2023 03:30:48.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:31:00.167] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9522ms or 190 ticks behind
+[07Jul2023 03:31:01.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:31:16.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:31:25.345] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10200ms or 204 ticks behind
+[07Jul2023 03:31:27.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:31:34.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:31:41.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:31:47.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:31:49.155] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8810ms or 176 ticks behind
+[07Jul2023 03:31:53.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:31:54.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:31:56.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:31:56.631] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:32:13.846] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9701ms or 194 ticks behind
+[07Jul2023 03:32:22.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Teleported Milo384 to luisfer153]
+[07Jul2023 03:32:25.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:32:31.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:32:31.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:32:32.376] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.008381701712778522,12.520000368356705,-0.016517294762024903
+[07Jul2023 03:32:32.954] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.0928137550804422,12.520000368356705,0.15462116242042612
+[07Jul2023 03:32:33.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,23.42217432311344,0.0
+[07Jul2023 03:32:36.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:32:37.616] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8771ms or 175 ticks behind
+[07Jul2023 03:32:42.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:32:43.957] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,17.192606912057272,0.0
+[07Jul2023 03:32:47.938] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for luisfer153 with unique ID 3e079195-98ee-499a-868a-c7c045c8d199
+[07Jul2023 03:32:47.939] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 1216 Y: 72 Z: 904
+[07Jul2023 03:32:47.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 fell from a high place
+[07Jul2023 03:32:50.252] [Server thread/INFO] [tombstone/]: The player luisfer153 has successfully been saved
+[07Jul2023 03:32:51.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 has made the advancement [The Most Useful Key]
+[07Jul2023 03:33:00.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:33:01.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:33:01.805] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:33:01.807] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[07Jul2023 03:33:02.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.024711815048476637,12.520000368356705,0.17899954940094176
+[07Jul2023 03:33:02.956] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.02764181993507009,12.520000368356705,0.20995276140592978
+[07Jul2023 03:33:03.434] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.02764181993507009,12.520000368356705,0.20995276140592978
+[07Jul2023 03:33:04.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.02798335884426706,12.520000368356705,0.21178268619974006
+[07Jul2023 03:33:04.469] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.01732908111375764,12.191200598263748,0.1322339885564361
+[07Jul2023 03:33:10.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luisfer153 has reached the goal [A Fast Comeback]
+[07Jul2023 03:33:11.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:33:11.418] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:33:12.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:33:12.531] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.04794744605010237,12.520000368356705,-0.20794291409970356
+[07Jul2023 03:33:13.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.04906122291504289,23.42217432311344,-0.2906779875124812
+[07Jul2023 03:33:20.229] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for WestSideCoConat with unique ID 8d6a4000-b877-4ffc-831d-6e2ee9c01f1a
+[07Jul2023 03:33:20.230] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: -269 Y: -10 Z: 760
+[07Jul2023 03:33:20.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WestSideCoConat was slain by Zombie
+[07Jul2023 03:33:20.265] [Server thread/INFO] [tombstone/]: The player WestSideCoConat has successfully been saved
+[07Jul2023 03:33:30.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Butifarra69]
+[07Jul2023 03:33:36.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Butifarra69]
+[07Jul2023 03:33:47.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Butifarra69]
+[07Jul2023 03:33:49.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Butifarra69 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:33:53.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Butifarra69]
+[07Jul2023 03:33:54.913] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Butifarra69 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:33:55.506] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Butifarra69 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:33:56.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Butifarra69 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:01.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Butifarra69]
+[07Jul2023 03:34:08.535] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Butifarra69 moved too quickly! -0.043298469002593265,-16.010067288283835,0.19933257468494503
+[07Jul2023 03:34:14.157] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Butifarra69 with unique ID 7b75a721-0260-4ffb-8a9f-f9d809a61865
+[07Jul2023 03:34:14.157] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 1207 Y: 71 Z: 903
+[07Jul2023 03:34:14.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Butifarra69 fell from a high place
+[07Jul2023 03:34:14.160] [Server thread/INFO] [tombstone/]: The player Butifarra69 has successfully been saved
+[07Jul2023 03:34:22.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:34:25.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.47615229664552317,12.520000368356705,0.05802322693887163
+[07Jul2023 03:34:26.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:34:27.331] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.1695640840212036,12.520000368356705,0.10671838900532293
+[07Jul2023 03:34:28.130] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.1884846789337189,12.520000368356705,-0.065366804507903
+[07Jul2023 03:34:28.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.1803873769920301,12.520000368356705,-0.11078674633085939
+[07Jul2023 03:34:29.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:34:30.017] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.009281396991127622,12.520000368356705,-0.004854628530097216
+[07Jul2023 03:34:30.625] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:34.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:34:35.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! -0.00915000831037105,12.520000368356705,-0.014891680817413544
+[07Jul2023 03:34:36.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:36.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:37.073] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:37.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! -0.025699966820866393,12.520000368356705,0.014312508815464753
+[07Jul2023 03:34:37.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:38.237] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:38.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:38.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:39.172] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:39.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:42.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Milo384> no
+[07Jul2023 03:34:43.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.005209702622323675,12.520000368356705,-0.009085060343522855
+[07Jul2023 03:34:47.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:34:48.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,-0.005252713507161388
+[07Jul2023 03:34:49.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! -0.018040222029185315,12.520000368356705,-0.0062779006004802795
+[07Jul2023 03:34:50.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.09995751975020539,12.520000368356705,0.03924202369387331
+[07Jul2023 03:34:50.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:50.721] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:50.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:51.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:52.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:52.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:52.671] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:53.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:55.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.520000368356705,0.0
+[07Jul2023 03:34:57.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to luisfer153]
+[07Jul2023 03:34:59.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! -0.02451879741488483,12.619999796152115,0.051540704980538976
+[07Jul2023 03:35:00.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:00.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:02.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:35:02.393] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:03.470] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:03.556] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.1785815830539832,12.619999796152115,0.027740001254642266
+[07Jul2023 03:35:03.972] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:04.186] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.08034782881463798,12.619999796152115,-0.1910199021757535
+[07Jul2023 03:35:04.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:04.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luisfer153 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:04.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.2874945550220218,36.7742161070571,-0.8600102608122597
+[07Jul2023 03:35:07.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.4229584670740678,12.619999796152115,0.1783155792021489
+[07Jul2023 03:35:07.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.20450582036073683,12.619999796152115,0.39708512129413975
+[07Jul2023 03:35:08.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.33853706271929696,12.619999796152115,0.31542489565742926
+[07Jul2023 03:35:08.515] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.2601320283979476,12.619999796152115,0.2654442674098618
+[07Jul2023 03:35:08.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.21580473423341573,12.619999796152115,0.36087443479425474
+[07Jul2023 03:35:09.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.17754085650994966,12.619999796152115,0.4407508402257463
+[07Jul2023 03:35:09.806] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! -0.1597959103573885,12.619999796152115,0.45159662397952616
+[07Jul2023 03:35:10.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:10.806] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:11.057] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:11.539] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:12.059] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:14.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:35:15.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.05623926902421772,12.619999796152115,0.01656092163102585
+[07Jul2023 03:35:15.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:16.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:17.091] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,19.464575588846202,0.0
+[07Jul2023 03:35:33.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Jump Boost to Milo384]
+[07Jul2023 03:35:33.658] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:34.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.0,12.619999796152115,0.0
+[07Jul2023 03:35:34.831] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.08987034141705408,12.619999796152115,-0.1913463348004143
+[07Jul2023 03:35:35.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.13109235702177102,12.619999796152115,-0.1706471140046233
+[07Jul2023 03:35:36.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.11079711330899045,19.464575588846202,-0.3417170770366056
+[07Jul2023 03:35:42.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.12022791635536123,12.619999796152115,0.16649545637199026
+[07Jul2023 03:35:42.741] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Milo384 moved too quickly! 0.12428011775705272,12.619999796152115,0.17148373082284252
+[07Jul2023 03:35:56.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Milo384: Applied effect Haste to Milo384]
+[07Jul2023 03:36:02.458] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1216, y=71, z=909}
+[07Jul2023 03:36:05.455] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=68, z=913}
+[07Jul2023 03:36:06.009] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=67, z=913}
+[07Jul2023 03:36:06.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=66, z=913}
+[07Jul2023 03:36:06.557] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=65, z=913}
+[07Jul2023 03:36:06.711] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=64, z=913}
+[07Jul2023 03:36:07.194] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=62, z=913}
+[07Jul2023 03:36:07.360] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=61, z=913}
+[07Jul2023 03:36:07.490] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=60, z=913}
+[07Jul2023 03:36:07.591] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=59, z=913}
+[07Jul2023 03:36:07.694] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=58, z=913}
+[07Jul2023 03:36:07.792] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=57, z=913}
+[07Jul2023 03:36:07.911] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=56, z=913}
+[07Jul2023 03:36:08.392] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=54, z=913}
+[07Jul2023 03:36:08.510] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=53, z=913}
+[07Jul2023 03:36:08.670] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=52, z=913}
+[07Jul2023 03:36:08.810] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=51, z=913}
+[07Jul2023 03:36:09.714] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=48, z=913}
+[07Jul2023 03:36:09.858] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=47, z=913}
+[07Jul2023 03:36:10.018] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=46, z=913}
+[07Jul2023 03:36:10.159] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=45, z=913}
+[07Jul2023 03:36:10.290] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=44, z=913}
+[07Jul2023 03:36:10.411] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=43, z=913}
+[07Jul2023 03:36:10.539] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=42, z=913}
+[07Jul2023 03:36:10.641] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=41, z=913}
+[07Jul2023 03:36:10.761] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=40, z=913}
+[07Jul2023 03:36:12.440] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=35, z=913}
+[07Jul2023 03:36:12.542] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=34, z=913}
+[07Jul2023 03:36:12.637] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=33, z=913}
+[07Jul2023 03:36:12.741] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=32, z=913}
+[07Jul2023 03:36:12.841] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=31, z=913}
+[07Jul2023 03:36:12.960] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=30, z=913}
+[07Jul2023 03:36:13.112] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=29, z=913}
+[07Jul2023 03:36:13.243] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=28, z=913}
+[07Jul2023 03:36:13.344] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=27, z=913}
+[07Jul2023 03:36:13.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=26, z=913}
+[07Jul2023 03:36:13.593] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=25, z=913}
+[07Jul2023 03:36:13.718] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=24, z=913}
+[07Jul2023 03:36:13.859] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=23, z=913}
+[07Jul2023 03:36:14.357] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=21, z=913}
+[07Jul2023 03:36:14.508] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=20, z=913}
+[07Jul2023 03:36:14.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=19, z=913}
+[07Jul2023 03:36:14.742] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=18, z=913}
+[07Jul2023 03:36:14.988] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=14, z=913}
+[07Jul2023 03:36:15.094] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=13, z=913}
+[07Jul2023 03:36:15.194] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=12, z=913}
+[07Jul2023 03:36:15.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=11, z=913}
+[07Jul2023 03:36:15.443] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=10, z=913}
+[07Jul2023 03:36:15.544] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=9, z=913}
+[07Jul2023 03:36:15.644] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=8, z=913}
+[07Jul2023 03:36:15.760] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=7, z=913}
+[07Jul2023 03:36:15.911] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1216, y=71, z=903} BlockPos{x=1215, y=6, z=913}
